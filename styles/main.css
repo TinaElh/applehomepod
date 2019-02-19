@@ -13,3 +13,9 @@ header a{
   width: 1920px;
   height: 200px;
 }
+
+img#img{
+  width: 1920px;
+  height: 1080px;
+  margin-bottom : 300px;
+}
