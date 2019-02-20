@@ -60,6 +60,9 @@ header .buttonBuy{
     border-radius: 4px;
 }
 
+.current{
+  border-bottom: 15px solid black;
+}
 
 
 /*MAIN*/
