@@ -128,7 +128,7 @@ img.background{
 
   font-size: 2em;
 
-	animation-duration: 10s;
+	animation-duration: 19.5s;
 	animation-timing-function: ease-in-out;
 }
 
@@ -139,51 +139,50 @@ img.background{
 
 .item-2{
 	animation-name: anim;
-  animation-delay: 1.52s ;
+  animation-delay: 4.5s ;
 }
 
 .item-3{
 	animation-name: anim;
-  animation-delay: 3s;
+  animation-delay: 9s;
 }
 .item-4{
 	animation-name: anim;
-  animation-delay: 4,5s;
+  animation-delay: 13.5s;
 }
 
 .item-5{
 	animation-name: anim;
-  animation-delay: 6s;
+  animation-delay: 18s;
 
 }
 .item-6{
 	animation-name: anim;
-  animation-delay: 7,5s;
+  animation-delay: 22.5s;
 }
 .item-7{
 	animation-name: anim;
-  animation-delay: 9s;
+  animation-delay: 27s;
 }
 
 .item-8{
 	animation-name: anim;
-  animation-delay: 10,5s;
+  animation-delay: 31.5s;
 }
 
 .item-9{
 	animation-name: anim;
-  animation-delay: 12s;
+  animation-delay: 36s;
 }
 .item-10{
 	animation-name: anim;
-  animation-delay: 13,5s;
+  animation-delay: 40.5s;
 }
 
 .item-11{
-	animation-name: anim;
-  animation-delay: 15s;
+  	animation-name: anim;
+  animation-delay: 45s;
 }
-
 
 @keyframes anim{
 	0%, 8.3% { left: -100%; opacity: 0; }
