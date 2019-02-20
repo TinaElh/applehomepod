@@ -59,13 +59,23 @@ header .buttonBuy{
     height: 27px;
     color: #FFF;
     background: linear-gradient(#42a1ec, #0070c9);
+    background-color: #0070c9;
     border-color: #07c;
     border-width: 1px;
     border-style: solid;
     border-radius: 4px;
 }
 
-/*
+header .buttonBuy:hover{
+    background : linear-gradient(#51a9ee,#147bcd)
+}
+
+.ongletNav:hover{
+    color: #42a1ec;
+    transition : all 0.2s;
+}
+
 .home{
-    position: absolute;
-} */
+    width: 100%;
+    height: 650px;
+}
