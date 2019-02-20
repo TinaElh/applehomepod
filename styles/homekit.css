@@ -114,6 +114,11 @@ header .buttonBuy:hover{
       height: 650px;
   }
 
+  .home .black{
+      background-color: #000;
+      opacity: 0;
+  }
+
   /* BUTTONS */
 
   .buttons{
