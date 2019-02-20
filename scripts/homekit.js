@@ -1,14 +1,22 @@
 const light = document.querySelector('.buttonLight')
 const tv = document.querySelector('.buttonTV')
-const window = document.querySelector ('.buttonWindow')
+const saucisse = document.querySelector ('.buttonWindow')
 const picture = document.querySelector ('.home')
 const black = document.querySelector ('.black')
 
 
-buttonLight.addEventListener(
+light.addEventListener(
     'click', 
-    function()
-    {
-        black.style.opacity="5px"
+    function() {
+        if (light.classList.contains("off")) {
+            black.style.opacity="0"
+            light.classList.remove("off")
+        } else {
+            black.style.opacity="0.7"
+            light.classList.add("off")
+        }
     }
 )
+
+// deuxième div par dessus boutton en display none
+// EventListener black.opacity.0
