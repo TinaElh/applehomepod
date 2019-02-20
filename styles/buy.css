@@ -96,12 +96,17 @@ main.buyPage {
 
 .color-button p {
 
-    display: none;
     margin-top: 21px;
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -webkit-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
 }
 
 .color-button:hover p {
     display: block;
+    opacity: 1;
 }
 
 .pagination-button__Button {
@@ -111,15 +116,22 @@ main.buyPage {
     width: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    opacity: 0.5;
+    transition: opacity 2s ease-out;
+    -moz-transition: opacity 1s ease-out;
+    -webkit-transition: opacity 1s ease-out;
+    -o-transition: opacity 1s ease-out;
 
 }
 
 .pagination-button__Button:hover {
     background-color: black;
+    opacity: 1;
 }
 
 .pagination-button__Button.current-pagination {
     background-color: black;
+    opacity: 1;
 }
 
 .shipping-choice {
@@ -164,7 +176,7 @@ main.buyPage {
 }
 
 .shipping-info__info-section .button-buy:hover {
-
+    background : linear-gradient(#51a9ee,#147bcd)
 }
 
 .shipping-info__info-section ul {
@@ -181,4 +193,38 @@ main.buyPage {
 
 .display-slider {
     display: flex;
+    animation: test 1.5s; 
+}
+
+
+/*
+ANIMATIONS
+*/
+@keyframes test {
+    0% {
+        transform: translateY(-80px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+/*
+FOOTER
+*/
+.barreHorizontale {
+
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer ul {
+    width: 25%;
+    list-style: none;
+}
+
+.footer2 img {
+    right: 35%;
 }
