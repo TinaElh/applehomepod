@@ -49,6 +49,7 @@ header a{
 .ongletNav:hover{
     color: #c2c3c7;
     transition : all 0.2s;
+    border-bottom: 5px solid black;
 }
 
 header .buttonBuy{
@@ -228,8 +229,6 @@ header .buttonBuy:hover{
 #slide5 {
     background: #8c8c8c
 }
-<<<<<<< HEAD
-=======
 
 /* FOOTER */
 
@@ -304,4 +303,3 @@ header .buttonBuy:hover{
     width : 900px;
     margin : 60px auto 30px auto;
   }
->>>>>>> 2470783123aacaab4ca786deed1d719bf3f14e62
