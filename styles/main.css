@@ -126,6 +126,10 @@ img.background{
   text-decoration: none;
 }
 
+.presentationTexte a:hover{
+  color : #51a9ee;
+}
+
 .presentationTexte{
     width: 100%;
     height: 60%;
@@ -157,11 +161,10 @@ img.background{
   height: 600px;
   margin-left: 200px;
   margin-right: 200px;
-  display : flex;
+  position : relative;
 }
 
 .imgInterieur{
-  justify-content: flex-start;
   width: 600px;
 }
 
@@ -172,64 +175,35 @@ img.background{
 }
 
 .carousselText0{
-  z-index : 4;
+  opacity : 1;
   position: absolute;
-  left : 800px;
-  width : 400px;
-  height: 400px;
-  background-color: #313131;
-  padding : 20px 20px;
+  left : 500px;
+  margin-right: 300px;
 }
 
-.carousselText0 h2, .carousselText0 p{
-  color : white;
-}
-
-.carousselText1{
-  z-index: 1;
+.nonVisible{
+  opacity : 0;
   position: absolute;
-  left : 800px;
-  width : 400px;
-  height: 400px;
-  background-color: #313131;
-  padding : 20px 20px;
+  left : 500px;
+  margin-right: 300px;
 }
 
-.carousselText1 h2, .carousselText1 p{
-  color : white;
-}
-
-.carousselText2{
-  z-index : 2;
-  position: absolute;
-  left : 800px;
-  width : 400px;
-  height: 400px;
-  background-color: #313131;
-  padding : 20px 20px;
-}
-
-.carousselText2 h2, .carousselText2 p{
-  color : white;
-}
-
-.carousselText3{
-  z-index : 3;
-  position: absolute;
-  left : 800px;
-  width : 400px;
-  height: 400px;
-  background-color: #313131;
-  padding : 20px 20px;
-}
-
-.carousselText3 h2, .carousselText3 p{
-  color : white;
+.carousselText div h2{
+  font-size : 56px;
+  font-weight: lighter;
+  width: 600px;
+  }
+.carousselText div p{
+  color : black;
+  font-size : 20px;
 }
 
 .carousselMusicImg{
-  width : 200px;
-  height: 200px;
+  position: absolute;
+  top : 400px;
+  left : 600px;
+  width : 150px;
+  height: 150px;
 }
 
 
@@ -244,12 +218,44 @@ img.background{
 }
 
 .footer{
-  width 100%;
-  height: 300px;
-  display : flex;
+  width : 1260px;
+  height: 140px;
+  display: flex;
+  align-content:center;
+  margin-left: 250px;
 }
 
-.footerList{
-  margin-left: 180px;
-  margin-right: 180px;
+.footer ul{
+  list-style: none;
+}
+
+.footer ul li{
+  margin : 20px 20px 40px 40px;
+
+}
+
+.footer ul li a{
+  color : black;
+  text-decoration: none;
+}
+
+.footer ul li a:hover{
+  color : #c2c3c7;
+  transition : all 0.2s;
+}
+
+/*2ème FOOTER */
+
+.footer2{
+
+}
+
+.footer2 li{
+  font-size: 12px;
+  color : black;
+}
+
+.footer2 li a{
+  text-decoration: none;
+  color : black;
 }
