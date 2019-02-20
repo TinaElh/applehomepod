@@ -37,6 +37,10 @@ header{
     height: 52px;
 }
 
+.navBar__container h2{
+    font-size: 17px;
+}
+
 header h2 {
     margin-top: 13px;
 }
