@@ -14,6 +14,8 @@ body{
     font-size: 17px;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /*HEADER*/
@@ -281,4 +283,61 @@ img.background{
   position : absolute;
   bottom : 270px;
   right : 550px;
+}
+
+.barreHorizontale2{
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  width : 900px;
+  margin : 60px auto 30px auto;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1px ) and (max-width : 1250px){
+  .carousselText1{
+    position : static;
+  }
+
+  .imgInterieur img{
+    position : absolute;
+    top : 300px;
+  }
+
+  .barreHorizontale{
+    margin-top : 300px;
+  }
+
+  .footer{
+    margin-left: 0px;
+    padding-top : 20px;
+  }
+
+  .footer2 img{
+    width : 50px;
+    height: 50px;
+    bottom : 270px;
+    right : 550px;
+  }
+
+  .footer2{
+    width: 1000px;
+    height: 100px;
+    margin-left: 30px;
+    margin-right: auto;
+    position : relative;
+  }
+
+  header #header{
+    position : relative;
+  }
+
+    .imgText{
+    position : absolute;
+    width: 600px;
+    height: 600px;
+    bottom : 300%;
+
+  }
+
 }
