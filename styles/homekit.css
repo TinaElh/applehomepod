@@ -151,7 +151,9 @@ header .buttonBuy:hover{
 
   .buttons{
       display:flex;
-      justify-content: space-around;
+    /* justify-content: flex-end; */
+      margin-top: 650px;
+      position: absolute;
   }
 
   .buttonLight, .buttonTV, .buttonWindow{
