@@ -20,6 +20,9 @@ body{
 .container{
   display : flex;
   justify-content: space-around;
+  width : 1260px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*HEADER*/
@@ -60,7 +63,7 @@ header .buttonBuy{
 
 /*MAIN*/
 
-img#img{
+img.background{
   width: 100%;
   height: auto;
   margin-bottom: 50px;
@@ -81,8 +84,8 @@ img#img{
   position : relative;
 }
 
-.texteImage h2{ 
-  font-size : 76px; 
+.texteImage h2{
+  font-size : 76px;
   font-weight: lighter;
 }
 
@@ -98,13 +101,13 @@ img#img{
 
 .grisSideral{
   position: absolute;
-  left: 80%;
-  top : 100%;
+  left: 70%;
+  top : 80%;
 }
 
-.noir{
+.blanc{
   position: absolute;
-  left: 63%;
+  left: 50%;
   top : 80%;
 }
 
