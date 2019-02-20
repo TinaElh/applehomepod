@@ -174,7 +174,7 @@ img.background{
   height: 600px;
 }
 
-.carousselText0{
+.carousselText1{
   opacity : 1;
   position: absolute;
   left : 500px;
@@ -204,6 +204,14 @@ img.background{
   left : 600px;
   width : 150px;
   height: 150px;
+}
+
+.carousselSiriImg{
+  position: absolute;
+  top : 450px;
+  left : 800px;
+  width : 60px;
+  height: 60px;
 }
 
 
@@ -247,15 +255,30 @@ img.background{
 /*2ème FOOTER */
 
 .footer2{
-
+  width: 1000px;
+  height: 100px;
+  margin-left: 300px;
+  margin-right: auto;
+  position : relative;
 }
-
-.footer2 li{
+.footer2 a{
   font-size: 12px;
-  color : black;
-}
-
-.footer2 li a{
   text-decoration: none;
   color : black;
+  margin-right: 7px;
+  padding-right: 10px;
+  margin-top: 30px;
+  border-right : 1px solid black;
+}
+
+.footer2 a:last-child{
+  border-right : none;
+}
+
+.footer2 img{
+  width : 50px;
+  height: 50px;
+  position : absolute;
+  bottom : 270px;
+  right : 550px;
 }
