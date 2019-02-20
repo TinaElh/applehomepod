@@ -48,6 +48,7 @@ header a{
 .ongletNav:hover{
   color: #c2c3c7;
   transition : all 0.2s;
+  border-bottom: 5px solid black;
 }
 
 header .buttonBuy{

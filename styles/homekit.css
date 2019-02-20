@@ -10,49 +10,53 @@
     font-weight: bold;
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
-  
+
 body{
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
     margin: 0;
     padding: 0;
+    background: #f4f4f4;
 }
   
   /*HEADER*/
   
 header{
-  /*position: fixed;
-    background-color: #FFF; */
     font-family: "SF Pro Text";
-    top: 0 px;
-    left: 0px;
     width: 100%;
-    height: 44px;
-    margin-right: 10px;
-    margin-left: 10px;
+    height: 52px;
+/*  border-bottom: 0.5px solid black; */
+    margin-right: 20px;
+    margin-left: 20px;
 }
-  
+
 .navBar__container{
-  display : flex;
-  justify-content: space-around;
-  width : 1260px;
-  margin-left: auto;
-  margin-right: auto;
+    display : flex;
+    justify-content: space-around;
+    width : 1260px;
+    margin-left: auto;
+    margin-right: auto;
 }
-  
+
 header h2 {
-  margin-top: 13px;
+    margin-top: 13px;
 }
-  
+
 header a{
     text-decoration: none;
     margin-top: 16px;
-    color: #313131;
+    color: black;
 }
-  
+
+.ongletNav:hover{
+    color: #c2c3c7;
+    transition : all 0.2s;
+    border-bottom: 5px solid black;
+}
+
 header .buttonBuy{
     font-weight: normal;
-    padding: 6px 6px 0px 6px;
+    padding: 6px 40px 0px 40px;
     margin-top: 10px;
     height: 27px;
     color: #FFF;
@@ -63,19 +67,17 @@ header .buttonBuy{
     border-radius: 4px;
 }
 
-.ongletNav:hover{
-    color: #c2c3c7;
-    transition : all 0.2s;
-}
-
 header .buttonBuy:hover{
     background : linear-gradient(#51a9ee,#147bcd)
 }
-  
+
+.current{
+    border-bottom: 5px solid black;
+}
+
   /*HomeExperience animation text*/
   
 .homeExperience__animation__container{
-    padding: 20px 0px 0px 0px;
     margin-top: 20px;
     text-align: center;
     width: 100%;
@@ -83,7 +85,7 @@ header .buttonBuy:hover{
 .homeExperience__animation__container span{
     display: block;
 }
-  .homeExperience__animation__title{
+.homeExperience__animation__title{
     text-transform: uppercase;
     color: black;
     font-size: 60px;
@@ -92,15 +94,15 @@ header .buttonBuy:hover{
     margin-bottom: 20px;
     background: white;
     animation: text 3.5s 1;
-  }
+}
   
-  @keyframes text{
+@keyframes text{
     0%{
-      color: white;
-      letter-spacing: 25px;
+        color: white;
+        letter-spacing: 25px;
      }
     85%{
-      letter-spacing: 8px;
+        letter-spacing: 8px;
     }
   }
 
@@ -131,21 +133,21 @@ header .buttonBuy:hover{
 
   /*SLIDER*/
   
-  [type=radio] {
+[type=radio] {
     position: absolute;
     opacity: 0;
     width: 0;
     height: 0;
-  }
+}
   
-  #slider {
+#slider {
     height: 35vw;
     position: relative;
     perspective: 1750px;
     transform-style: preserve-3d;
-  }
+}
   
-  #slider label {
+#slider label {
     margin: auto;
     width: 40%;
     height: 80%;
@@ -155,30 +157,40 @@ header .buttonBuy:hover{
     right: 0;
     cursor: pointer;
     transition: transform 0.4s ease;
-  }
+}
   
-  #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
+#s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
     transform: translate3d(-30%,0,-200px);
-  }
+}
   
-  #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
+#s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
     transform: translate3d(-15%,0,-100px);
-  }
+}
   
-  #s1:checked ~ #slide1, #s2:checked ~ #slide2, #s3:checked ~ #slide3, #s4:checked ~ #slide4, #s5:checked ~ #slide5 {
+#s1:checked ~ #slide1, #s2:checked ~ #slide2, #s3:checked ~ #slide3, #s4:checked ~ #slide4, #s5:checked ~ #slide5 {
     transform: translate3d(0,0,0);
-  }
+}
   
-  #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
+#s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
     transform: translate3d(15%,0,-100px);
-  }
+}
   
-  #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
+#s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
     transform: translate3d(30%,0,-200px);
-  }
+}
   
-  #slide1 { background: #333333 }
-  #slide2 { background: #424242 }
-  #slide3 { background: #545454 }
-  #slide4 { background: #6d6d6d }
-  #slide5 { background: #8c8c8c }
+#slide1 { 
+    background: #333333
+}
+#slide2 {
+    background: #424242
+}
+#slide3 {
+    background: #545454
+}
+#slide4 {
+    background: #6d6d6d
+}
+#slide5 {
+    background: #8c8c8c
+}

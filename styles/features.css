@@ -26,7 +26,6 @@ header{
 /*  border-bottom: 0.5px solid black; */
     margin-right: 20px;
     margin-left: 20px;
-
 }
 
 .navBar__container{
@@ -42,34 +41,35 @@ header h2 {
 }
 
 header a{
-    text-decoration: none;
-    margin-top: 16px;
-    color: black;
+  text-decoration: none;
+  margin-top: 16px;
+  color: black;
 }
 
 .ongletNav:hover{
   color: #c2c3c7;
   transition : all 0.2s;
+  border-bottom: 5px solid black;
 }
 
 header .buttonBuy{
-    font-weight: normal;
-    padding: 6px 40px 0px 40px;
-    margin-top: 10px;
-    height: 27px;
-    color: #FFF;
-    background: linear-gradient(#42a1ec, #0070c9);
-    border-color: #07c;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 4px;
+  font-weight: normal;
+  padding: 6px 40px 0px 40px;
+  margin-top: 10px;
+  height: 27px;
+  color: #FFF;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
 }
 
 header .buttonBuy:hover{
   background : linear-gradient(#51a9ee,#147bcd)
 }
 .current{
-  border-bottom: 15px solid black;
+  border-bottom: 5px solid black;
 }
 
 /*MAIN*/
