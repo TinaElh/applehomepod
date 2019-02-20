@@ -17,9 +17,9 @@ body{
     margin: 0;
     padding: 0;
 }
-  
+
   /*HEADER*/
-  
+
 header{
     font-family: "SF Pro Text";
     width: 100%;
@@ -74,7 +74,7 @@ header .buttonBuy:hover{
 }
 
   /*HomeExperience animation text*/
-  
+
 .homeExperience__animation__container{
     margin-top: 20px;
     text-align: center;
@@ -93,7 +93,7 @@ header .buttonBuy:hover{
     background: white;
     animation: text 3.5s 1;
 }
-  
+
 @keyframes text{
     0%{
         color: white;
@@ -172,54 +172,54 @@ header .buttonBuy:hover{
 }
 
   /*SLIDER*/
-  
+
 [type=radio] {
     position: absolute;
     opacity: 0;
     width: 0;
     height: 0;
 }
-  
+
 #slider {
     height: 35vw;
     position: relative;
     perspective: 1750px;
     transform-style: preserve-3d;
 }
-  
+
 #slider label {
     margin: auto;
     width: 40%;
     height: 80%;
     border-radius: 5px;
     position: absolute;
-    left: 0; 
+    left: 0;
     right: 0;
     cursor: pointer;
     transition: transform 0.4s ease;
 }
-  
+
 #s1:checked ~ #slide4, #s2:checked ~ #slide5, #s3:checked ~ #slide1, #s4:checked ~ #slide2, #s5:checked ~ #slide3 {
     transform: translate3d(-30%,0,-200px);
 }
-  
+
 #s1:checked ~ #slide5, #s2:checked ~ #slide1, #s3:checked ~ #slide2, #s4:checked ~ #slide3, #s5:checked ~ #slide4 {
     transform: translate3d(-15%,0,-100px);
 }
-  
+
 #s1:checked ~ #slide1, #s2:checked ~ #slide2, #s3:checked ~ #slide3, #s4:checked ~ #slide4, #s5:checked ~ #slide5 {
     transform: translate3d(0,0,0);
 }
-  
+
 #s1:checked ~ #slide2, #s2:checked ~ #slide3, #s3:checked ~ #slide4, #s4:checked ~ #slide5, #s5:checked ~ #slide1 {
     transform: translate3d(15%,0,-100px);
 }
-  
+
 #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
     transform: translate3d(30%,0,-200px);
 }
-  
-#slide1 { 
+
+#slide1 {
     background: #333333
 }
 #slide2 {
