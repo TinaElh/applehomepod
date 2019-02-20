@@ -174,7 +174,7 @@ img.background{
   height: 600px;
 }
 
-.carousselText0{
+.carousselText1{
   opacity : 1;
   position: absolute;
   left : 500px;
@@ -204,6 +204,14 @@ img.background{
   left : 600px;
   width : 150px;
   height: 150px;
+}
+
+.carousselSiriImg{
+  position: absolute;
+  top : 450px;
+  left : 800px;
+  width : 60px;
+  height: 60px;
 }
 
 
