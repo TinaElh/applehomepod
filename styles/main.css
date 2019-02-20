@@ -102,8 +102,8 @@ img.background{
 
 .dimensionEnceinte{
   width : 70%;
-/*margin-right: 15%;
-  margin-left: 15%; */
+  margin-right: 15%;
+  margin-left: 15%;
   margin: 0 auto;
 }
 
@@ -295,15 +295,65 @@ img.background{
 
 /* MEDIA QUERIES */
 
-@media screen and (min-width: 1px ) and (max-width : 1250px){
-  .carousselText1{
-    position : static;
+@media screen and (min-width: 915px ) and (max-width : 1250px){
+
+  body{
+      font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      margin: 0;
+      padding: 0;
+      overflow: visible;
   }
 
+
+/*HEADER*/
+
+header #header{
+  position : relative;
+}
+
+  .imgText{
+  position : absolute;
+  width: 600px;
+  height: 600px;
+  bottom : 300%;
+
+}
+
+.navBar__container{
+  width : 1260px;
+}
+
+/*MAIN*/
+
+
+
+/*CAROUSSEL*/
   .imgInterieur img{
     position : absolute;
     top : 300px;
   }
+
+  .carousselText1{
+    position : static;
+    margin-right: 300px;
+    right : 200px;
+  }
+
+  .caroussel p{
+    margin-right : 200px;
+  }
+
+  .carousselSiriImg{
+    position: absolute;
+    top : 450px;
+    left : 1000px;
+    width : 60px;
+    height: 60px;
+  }
+
+
+/*FOOTER*/
 
   .barreHorizontale{
     margin-top : 300px;
@@ -329,16 +379,59 @@ img.background{
     position : relative;
   }
 
-  header #header{
-    position : relative;
+
+
+}
+
+@media screen and (min-width: 1px ) and (max-width : 915px){
+
+  body{
+      font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      margin: 0;
+      padding: 0;
+      overflow: visible;
   }
 
-    .imgText{
-    position : absolute;
-    width: 600px;
-    height: 600px;
-    bottom : 300%;
 
-  }
+/*HEADER*/
+
+
+
+/*MAIN*/
+
+
+
+
+
+/*FOOTER*/
+
+.footer{
+  width : 1260px;
+  height: 140px;
+  display : flex;
+  align-content:center;
+  margin-left: 10px;
+}
+
+.footer ul li{
+  margin : 20px 5px 40px 5px;
+
+}
+
+.footer2 img{
+  position : static;
+}
+
+.footer2 img{
+  width : 50px;
+  height: 50px;
+  position : absolute;
+  bottom : 270px;
+  right : 900px;
+}
+
+
+
 
 }
