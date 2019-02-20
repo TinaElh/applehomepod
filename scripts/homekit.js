@@ -17,6 +17,3 @@ light.addEventListener(
         }
     }
 )
-
-// deuxième div par dessus boutton en display none
-// EventListener black.opacity.0
