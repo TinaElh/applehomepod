@@ -12,6 +12,8 @@
 body{
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -29,18 +31,23 @@ header{
     width: 100%;
     height: 52px;
 /*  border-bottom: 0.5px solid black; */
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
-
+header h2 {
+  margin-top: 13px;
+}
 header a{
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 16px;
     color: #313131;
 }
 
 header .buttonBuy{
     font-weight: normal;
-    padding: 10px;
+    padding: 6px 40px 0px 40px;
+    margin-top: 10px;
+    height: 27px;
     color: #FFF;
     background: linear-gradient(#42a1ec, #0070c9);
     border-color: #07c;
