@@ -1,12 +1,14 @@
 const light = document.querySelector('.buttonLight')
 const tv = document.querySelector('.buttonTV')
 const window = document.querySelector ('.buttonWindow')
+const picture = document.querySelector ('.home')
+const black = document.querySelector ('.black')
 
 
-element.addEventListener(
+buttonLight.addEventListener(
     'click', 
     function()
     {
-        console.log('Hello world')
+        black.style.opacity="5px"
     }
 )
