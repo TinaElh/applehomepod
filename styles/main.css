@@ -82,14 +82,20 @@ img.background{
   position : relative;
 }
 
-.texteImage h2{
+.presentationTexte h2{
   font-size : 76px;
   font-weight: lighter;
 }
 
-.texteImage h3{
+.presentationTexte h3{
   font-size : 24px;
   font-weight: lighter;
+}
+
+.presentationTexte a{
+  color : #0070c9;
+  font-weight: lighter;
+  text-decoration: none;
 }
 
 .presentationTexte{
@@ -112,4 +118,10 @@ img.background{
 .homePod_deux{
   width: 80%;
   height: 50%;
+}
+
+/*Caroussel*/
+
+.caroussel{
+  background-color: #f2f2f2;
 }
