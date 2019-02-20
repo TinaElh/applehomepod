@@ -212,6 +212,24 @@ img.background{
   height: 60px;
 }
 
+.carousselBtn {
+  position : absolute;
+  top : 270px;
+  left : 1130px;
+  width:0px;
+  height:0px;
+  border-top: 20px solid transparent;
+	border-left: 30px solid #000;
+	border-bottom: 20px solid transparent;
+}
+
+.carousselBtn:hover{
+  border-top: 25px solid transparent;
+	border-left: 40px solid #c2c3c7;;
+	border-bottom: 25px solid transparent;
+  top : 265px;
+  transition : all 0.5s;
+}
 
 /* FOOTER */
 
@@ -384,6 +402,20 @@ header #header{
     height: 60px;
   }
 
+  .carousselBtn {
+    position : absolute;
+    top : 200px;
+    left : 800px;
+    width:0px;
+    height:0px;
+    border-top: 20px solid transparent;
+  	border-left: 30px solid #000;
+  	border-bottom: 20px solid transparent;
+  }
+
+  .carousselBtn:hover{
+    top : 195px;
+  }
 
 /*FOOTER*/
 
@@ -559,6 +591,22 @@ header #header{
   width : 60px;
   height: 60px;
 }
+
+.carousselBtn {
+  position : absolute;
+  top : 160px;
+  left : 500px;
+  width:0px;
+  height:0px;
+  border-top: 20px solid transparent;
+  border-left: 30px solid #000;
+  border-bottom: 20px solid transparent;
+}
+
+.carousselBtn:hover{
+  top : 155px;
+}
+
 
 
 /*FOOTER*/
@@ -744,6 +792,21 @@ header #header{
     left : 200px;
     width : 30px;
     height: 30px;
+  }
+
+  .carousselBtn {
+    position : absolute;
+    top : 160px;
+    left : 400px;
+    width:0px;
+    height:0px;
+    border-top: 20px solid transparent;
+  	border-left: 30px solid #000;
+  	border-bottom: 20px solid transparent;
+  }
+
+  .carousselBtn:hover{
+    top : 155px;
   }
 
 
