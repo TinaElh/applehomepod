@@ -201,12 +201,12 @@ img.background{
   top : 400px;
   left : 600px;
   width : 150px;
-  height: 150px;
+  height: 130px;
 }
 
 .carousselSiriImg{
   position: absolute;
-  top : 450px;
+  top : 440px;
   left : 800px;
   width : 60px;
   height: 60px;
@@ -391,12 +391,12 @@ header #header{
     top : 350px;
     left : 500px;
     width : 150px;
-    height: 150px;
+    height: 140px;
   }
 
   .carousselSiriImg{
     position: absolute;
-    top : 400px;
+    top : 395px;
     left : 700px;
     width : 60px;
     height: 60px;
@@ -581,12 +581,12 @@ header #header{
   top : 250px;
   left : 200px;
   width : 150px;
-  height: 150px;
+  height: 140px;
 }
 
 .carousselSiriImg{
   position: absolute;
-  top : 300px;
+  top : 295px;
   left : 400px;
   width : 60px;
   height: 60px;
@@ -783,12 +783,12 @@ header #header{
     top : 230px;
     left : 40px;
     width : 100px;
-    height: 100px;
+    height: 90px;
   }
 
   .carousselSiriImg{
     position: absolute;
-    top : 270px;
+    top : 260px;
     left : 200px;
     width : 30px;
     height: 30px;
