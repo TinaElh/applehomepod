@@ -33,7 +33,7 @@ main.buyPage {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+ 
 }
 .buy-slider {
     display: none;
@@ -74,7 +74,7 @@ main.buyPage {
     flex-direction: row;
     width: 430px;
     justify-content: center;
-
+    
 }
 
 .color-button {
@@ -87,11 +87,10 @@ main.buyPage {
     margin-right: 10px;
     display: flex;
     justify-content: center;
-    cursor: pointer;
 *}
 
 .gray-choice {
-    background-color: #7e8083;
+    background-color: #f4f4f4;
 }
 
 .white-choice {
@@ -197,7 +196,7 @@ main.buyPage {
 
 .display-slider {
     display: flex;
-    animation: test 1.5s;
+    animation: test 1.5s; 
 }
 
 
@@ -212,54 +211,4 @@ ANIMATIONS
     100% {
         transform: translateY(0px);
     }
-}
-/*
-FOOTER
-*/
-.barreHorizontale {
-
-}
-
-.footer {
-    margin-left: auto;
-    margin-right: auto;
-    height: 90%;
-}
-.footer ul {
-    width: 25%;
-    list-style: none;
-}
-
-.footer2 img {
-    right: 35%;
-}
-
-.footer2 {
-    display: flex;
-    width: 1000px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.footer2 a {
-    margin-top: 13px;
-}
-
-.footerLogo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.footerLogo img {
-    width: 50px;
-    height: auto;
-}
-
-.barreHorizontale {
-    margin-top: 22px;
 }

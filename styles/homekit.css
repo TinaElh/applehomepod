@@ -77,20 +77,17 @@ header .buttonBuy:hover{
 
 .homeExperience__animation__container{
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     width: 100%;
 }
 .homeExperience__animation__container span{
     display: block;
-}
-.homeExperience__animation__title{
     text-transform: uppercase;
     color: black;
     font-size: 60px;
     font-weight: 500;
     letter-spacing: 8px;
-    margin-bottom: 20px;
-    background: white;
     animation: text 3.5s 1;
 }
 
@@ -111,7 +108,7 @@ header .buttonBuy:hover{
       width: 100vw;
       height: 100vh;
       overflow: hidden;
-      margin-bottom: 7%;
+      margin-bottom: 2%;
   }
   #house img, #house .black {
       position: absolute;
@@ -180,6 +177,20 @@ header .buttonBuy:hover{
 
   /*SLIDER*/
 
+.homeExperience__slider__title__container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+.homeExperience__slider__title__container span{
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
 [type=radio] {
     position: absolute;
     opacity: 0;
@@ -187,14 +198,14 @@ header .buttonBuy:hover{
     height: 0;
 }
 
-#homeKit__Main__Slider {
+#homeExperience__main__slider {
     height: 35vw;
     position: relative;
     perspective: 1750px;
     transform-style: preserve-3d;
 }
 
-#homeKit__Main__Slider label {
+#homeExperience__main__slider label {
     margin: auto;
     width: 45%;
     height: 69%;
@@ -206,7 +217,7 @@ header .buttonBuy:hover{
     transition: transform 0.4s ease;
 }
 
-#homeKit__Main__Slider label img{
+#homeExperience__main__slider img{
     width: 100%;
     height: 100%;
 }
