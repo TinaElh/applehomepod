@@ -357,6 +357,13 @@ ul.footerList1, ul.footerList2 {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .imgInterieur img{
+    width : 10px;
+    position : absolute;
+    top : 300px;
+  }
+
 }
 
 @media screen and (min-width: 915px ) and (max-width : 1250px){
@@ -438,6 +445,7 @@ header #header{
 
   .caroussel p{
     margin-right : 200px;
+    font-size : 20px;
   }
 
   .carousselMusicImg{
@@ -474,17 +482,15 @@ header #header{
 /*FOOTER*/
 
   .barreHorizontale{
-    margin-top : 300px;
+    margin-top : 24px;
   }
 
 
 
 
   .footer2{
-    width: 1000px;
+    width: 82%;
     height: 40px;
-    margin-left: 30px;
-    margin-right: auto;
     position : relative;
   }
 
@@ -703,9 +709,6 @@ header #header{
 }
 
 
-main {
-  
-}
 /*FOOTER*/
 
 
@@ -715,7 +718,11 @@ main {
 
 }
 
+.footer2 {
+  width: 97%;
+}
 
+}
 
 @media screen and (min-width: 1px ) and (max-width : 740px){
 
@@ -732,7 +739,10 @@ main {
 
   /*HEADER*/
 
-
+  header {
+    padding-top: 10px;
+    height: 28px;
+  }
 
   /*MAIN*/
 
@@ -884,7 +894,7 @@ main {
   /*FOOTER*/
 
   .footer{
-    width : 1260px;
+    width : 90%;
     height: 140px;
     display : flex;
     align-content:center;
@@ -900,32 +910,37 @@ main {
     font-size: 12px;
   }
 
+  ul.footerList1, ul.footerList2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
   .footer2{
-    width: 1000px;
+    width: 90%;
     height: 100px;
     margin-left: 40px;
     margin-right: auto;
     position : relative;
   }
   .footer2 a{
-    font-size: 7px;
+    font-size: 11px;
     text-decoration: none;
     color : black;
     margin-right: 7px;
     padding-right: 10px;
     margin-top: 30px;
     border-right : 1px solid black;
+    margin-bottom: 42px;
   }
 
+  .footerLogo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: -28px;
+}
 
-  .footer2 img{
-    width : 30px;
-    height: 30px;
-    position : absolute;
-    bottom : 270px;
-    right : 700px;
-  }
+
 
 
   /*HAMBURGER*/
@@ -1056,4 +1071,5 @@ main {
   {
     transform: none;
   }
+
 }

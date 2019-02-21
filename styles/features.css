@@ -1,40 +1,39 @@
 @font-face {
-    font-family: "SF Pro Text";
-    font-weight: normal;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
-@font-face{
-    font-family: "SF Pro Text";
-    font-weight: bold;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+  font-family: "SF Pro Text";
+  font-weight: normal;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-body{
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    margin: 0;
-    padding: 0;
-    color: white;
-    overflow-x: hidden;
-    background: #f4f4f4
+@font-face {
+  font-family: "SF Pro Text";
+  font-weight: bold;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+body {
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow-x: hidden;
+  background: #ffffff
 }
 
 /*HEADER*/
-
-header{
-    font-family: "SF Pro Text";
-    width: 100%;
-    height: 52px;
-/*  border-bottom: 0.5px solid black; */
-    margin-right: 20px;
-    margin-left: 20px;
-
+header {
+  font-family: "SF Pro Text";
+  width: 100%;
+  height: 52px;
+  /*  border-bottom: 0.5px solid black; */
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-.navBar__container{
-  display : flex;
+.navBar__container {
+  display: flex;
   justify-content: space-around;
-  width : 1260px;
+  width: 1260px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,62 +42,62 @@ header h2 {
   margin-top: 13px;
 }
 
-header a{
-    text-decoration: none;
-    margin-top: 16px;
-    color: black;
+header a {
+  text-decoration: none;
+  margin-top: 16px;
+  color: black;
 }
 
-.ongletNav:hover{
+.ongletNav:hover {
   color: #c2c3c7;
-  transition : all 0.2s;
+  transition: all 0.2s;
 }
 
-header .buttonBuy{
-    font-weight: normal;
-    padding: 6px 40px 0px 40px;
-    margin-top: 10px;
-    height: 27px;
-    color: #FFF;
-    background: linear-gradient(#42a1ec, #0070c9);
-    border-color: #07c;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 4px;
+header .buttonBuy {
+  font-weight: normal;
+  padding: 6px 40px 0px 40px;
+  margin-top: 10px;
+  height: 27px;
+  color: #FFF;
+  background: linear-gradient(#42a1ec, #0070c9);
+  border-color: #07c;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
 }
 
-header .buttonBuy:hover{
-  background : linear-gradient(#51a9ee,#147bcd)
+header .buttonBuy:hover {
+  background: linear-gradient(#51a9ee, #147bcd)
 }
-.current{
+
+.current {
   border-bottom: 15px solid black;
 }
 
 /*MAIN*/
-
-.imgtext{
-  position: absolute ;
+.imgtext {
+  position: absolute;
   display: flex;
   flex-direction:
 }
 
-h1.imgtext{
+h1.imgtext {
   font-size: 50px;
-  color : white;
-  left : 700px;
-  top : 250px;
+  color: white;
+  left: 700px;
+  top: 250px;
 }
 
-h2.imgtext{
-  font-size : 20px;
-  color : white;
+h2.imgtext {
+  font-size: 20px;
+  color: white;
   font-weight: lighter;
-  left : 700px;
-  top : 320px;
-  right : 50px;
+  left: 700px;
+  top: 320px;
+  right: 50px;
 }
 
-img.background{
+img.background {
   width: 100%;
   height: auto;
   margin-top: 1px;
@@ -106,31 +105,78 @@ img.background{
 }
 
 /*Slider*/
-.Slider{
+.Slider {
   position: relative;
   color: black;
-  width: 60%;
-  height: 450px;
-  background-color: #ffffff;
-  margin:0 auto;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
   padding: 20px;
   text-align: center;
-  border-radius:2%;
-
-
 }
-.slidertitle{
-  font-style:normal;
-  font-weight:bold;
-  line-height:normal;
-  font-size: 37px;
+
+.slidertitle {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 32px;
 }
-li{
+
+li {
   list-style: none;
 }
-li p{
-  font-style:normal;
-  font-weight:normal;
-  line-height:normal;
-  font-size: 18px;
+
+li p {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 15px;
 }
+.trait
+{
+height: 1pt;
+width: 80%;
+position: absolute;
+left: 120px;
+  top:2700px;
+border: 1px solid rgba(0, 0, 0, 0.6);
+background-color: black;
+}
+
+/* son */
+
+.son .applemusic{
+  position: absolute;
+  top:2701px;
+  left: 114px;
+}
+.son h4{
+  position: absolute;
+  top:2680px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 32px;
+  color: black;
+  left: 114px;
+}
+.gif{
+  position: absolute;
+  width: 100%;
+  height: 360px;
+  top:2780px;
+}
+.trait2
+{
+height: 1pt;
+width: 80%;
+position: absolute;
+left: 120px;
+  top:3165px;
+border: 1px solid rgba(0, 0, 0, 0.6);
+background-color: black;
+}
+
+/*environnement*/
