@@ -1,93 +1,19 @@
-/*GENERAL*/
+ /*HomeKit animation text*/
 
-@font-face {
-    font-family: "SF Pro Text";
-    font-weight: normal;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
-@font-face{
-    font-family: "SF Pro Text";
-    font-weight: bold;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
-}
-
-body{
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    margin: 0;
-    padding: 0;
-}
-
-  /*HEADER*/
-
-header{
-    font-family: "SF Pro Text";
-    width: 100%;
-    height: 52px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.navBar__container{
-    display : flex;
-    justify-content: space-around;
-    width : 1260px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header h2 {
-    margin-top: 13px;
-}
-
-header a{
-    text-decoration: none;
-    margin-top: 16px;
-    color: black;
-}
-
-.ongletNav:hover{
-    color: #c2c3c7;
-    transition : all 0.2s;
-    border-bottom: 2px solid black;
-}
-
-header .buttonBuy{
-    font-weight: normal;
-    padding: 6px 40px 0px 40px;
-    margin-top: 10px;
-    height: 27px;
-    color: #FFF;
-    background: linear-gradient(#42a1ec, #0070c9);
-    border-color: #07c;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 4px;
-}
-
-header .buttonBuy:hover{
-    background : linear-gradient(#51a9ee,#147bcd)
-}
-
-.current{
-    border-bottom: 2px solid black;
-}
-
-  /*HomeExperience animation text*/
-
-.homeExperience__animation__container{
+.homeKit__animation__container{
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
     width: 100%;
 }
-.homeExperience__animation__container span{
+.homeKit__animation__container span{
     display: block;
     text-transform: uppercase;
     color: black;
     font-size: 60px;
     font-weight: 500;
     letter-spacing: 8px;
+    word-spacing: 10px;
     animation: text 3.5s 1;
 }
 
@@ -99,27 +25,27 @@ header .buttonBuy:hover{
     85%{
         letter-spacing: 8px;
     }
-  }
+}
 
   /* PICTURES */
 
-  #house {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      margin-bottom: 2%;
-  }
-  #house img, #house .black {
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      opacity: 0;
-      transition: opacity .6s;
-  }
-  #house .showed {
-      opacity: 1;
-  }
-  .black{
+#house {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+#house img, #house .black {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    opacity: 0;
+    transition: opacity .6s;
+}
+#house .showed {
+    opacity: 1;
+}
+.black{
     background-color: rgba(0,0,0,0.6);
 }
 
@@ -147,33 +73,27 @@ header .buttonBuy:hover{
 
   /* BUTTONS */
 
-  .buttons{
-      display:flex;
-    /* justify-content: flex-end; */
-      margin-top: 650px;
-      position: absolute;
-  }
+.buttons{
+    display:flex;
+/* justify-content: flex-end; */
+    margin-top: 650px;
+    position: absolute;
+}
 
-  .buttonLight, .buttonTV, .buttonWindow{
-      border-radius: 50px 50px 50px 50px;
-      width: 80px;
-      background-color: #121212;
-      border-style: solid;
-      padding : 15px 10px;
-      cursor: pointer;
-  }
+.buttonLight, .buttonTV, .buttonWindow{
+    border-radius: 50px 50px 50px 50px;
+    width: 80px;
+    background-color: #121212;
+    border-style: solid;
+    padding : 15px 10px;
+    cursor: pointer;
+}
 
-  .buttonLight:hover, .buttonTV:hover, .buttonWindow:hover{
+.buttonLight:hover, .buttonTV:hover, .buttonWindow:hover{
     background-color: #4b4b4b;
-  }
+}
 
 /* H3 FOR BUTTONS */
-
-.h2{
-  color : red;
-  position : absolute;
-  left : 100px;
-}
 
 .h3{
     font-style: normal;
@@ -183,13 +103,13 @@ header .buttonBuy:hover{
 
   /*SLIDER*/
 
-.homeExperience__slider__title__container{
+.homeKit__slider__title__container{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
     width: 100%;
 }
-.homeExperience__slider__title__container span{
+.homeKit__slider__title__container span{
     display: block;
     text-transform: uppercase;
     color: black;
@@ -204,14 +124,14 @@ header .buttonBuy:hover{
     height: 0;
 }
 
-#homeExperience__main__slider {
+#homeKit__main__slider {
     height: 35vw;
     position: relative;
     perspective: 1750px;
     transform-style: preserve-3d;
 }
 
-#homeExperience__main__slider label {
+#homeKit__main__slider label {
     margin: auto;
     width: 45%;
     height: 69%;
@@ -223,7 +143,7 @@ header .buttonBuy:hover{
     transition: transform 0.4s ease;
 }
 
-#homeExperience__main__slider img{
+#homeKit__main__slider img{
     width: 100%;
     height: 100%;
 }
@@ -263,109 +183,3 @@ header .buttonBuy:hover{
 #slide5 {
     background: #8c8c8c
 }
-
-/* FOOTER */
-
-.barreHorizontale{
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    width : 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top : 100px;
-  }
-
-  .footer{
-    width : 1260px;
-    height: 140px;
-    display: flex;
-    align-content:center;
-    margin-left: 250px;
-  }
-
-  .footer ul{
-    list-style: none;
-  }
-
-  .footer ul li{
-    margin : 20px 20px 40px 40px;
-
-  }
-
-  .footer ul li a{
-    color : black;
-    text-decoration: none;
-  }
-
-  .footer ul li a:hover{
-    color : #c2c3c7;
-    transition : all 0.2s;
-  }
-
-  /*2ème FOOTER */
-
-  .footer2{
-    width: 1000px;
-    height: 100px;
-    margin-left: 300px;
-    margin-right: auto;
-    position : relative;
-  }
-  .footer2 a{
-    font-size: 12px;
-    text-decoration: none;
-    color : black;
-    margin-right: 7px;
-    padding-right: 10px;
-    margin-top: 30px;
-    border-right : 1px solid black;
-  }
-
-  .footer2 a:last-child{
-    border-right : none;
-  }
-
-  .footer2 img{
-    width : 50px;
-    height: 50px;
-    position : absolute;
-    bottom : 270px;
-    right : 550px;
-  }
-
-  .barreHorizontale2{
-    border: 1px solid rgba(0, 0, 0, 0.6);
-    width : 900px;
-    margin : 60px auto 30px auto;
-  }
-
-  /* MEDIA QUERIES */
-
-    @media screen and (max-width : 768px){
-
-        .navBar__container{
-            width: 760px;
-            display:flex;
-            justify-content: space-around;
-            font-size: 15px;
-        }
-
-        header .buttonBuy{
-            font-weight: normal;
-            padding: 3px 18px 0px 18px;
-            margin-top: 10px;
-            height: 20px;
-        }
-
-        header h2 {
-            font-size: 17px;
-        }
-
-        .homeExperience__animation__title{
-            font-size: 40px;
-        }
-
-        #house{
-            width: 100%;
-            height: 60%;
-        }
-    }

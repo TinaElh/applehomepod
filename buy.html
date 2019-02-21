@@ -5,17 +5,33 @@
     <title> Acheter l'HomePod </title>
     <meta name="description" content="description de la page"/>
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css"/>
     <link rel="stylesheet" href="styles/buy.css"/>
+    <link rel="stylesheet" href="styles/main.css"/>
+
   </head>
   <body>
     <header id="header">
       <nav class="navBar__container">
-        <h2><a href="index.html>" title="accueil">HomePod</a></h2>
-        <a href="index.html" title="Presentation">Présentation</a>
-        <a href="features.html" title="Caracteristiques">Caractéristiques</a>
-        <a href="homekit.html" title="Experience">HomeKit</a>
-        <a href="buy.html" title="Acheter" class="buttonBuy">Acheter</a>
+        <div id="menuToggle">
+
+          <input type="checkbox" />
+
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <ul id="menu">
+            <a href="index.html"><li>Présentation</li></a>
+            <a href="features.html"><li>Caractéristiques</li></a>
+            <a href="homekit.html"><li>Homekit</li></a>
+            <a href="buy.html"><li>Acheter</li></a>
+          </ul>
+        </div>
+          <h2><a href="index.html" title="accueil">HomePod</a></h2>
+          <a href="index.html" title="Presentation" class="ongletNav">Présentation</a>
+          <a href="features.html" title="Caracteristiques" class="ongletNav">Caractéristiques</a>
+          <a href="homekit.html" title="Experience" class="ongletNav">HomeKit</a>
+          <a href="buy.html" title="Acheter" class="buttonBuy">Acheter</a>
       </nav>
     </header>
     <main class="buyPage">
@@ -95,7 +111,7 @@
         </ul>
         <ul class="footerList2">
           <li><a href="https://apple.com" title="caracteristiques">Apple</a></li>
-          <li><a href="https://secure1.store.apple.com/fr/shop/account/home" title="compte apple store">Compte Apple Store</a></li>
+          <li><a href="https://www.apple.com/fr/newsroom/" title="newsroom">Newsroom</a></li>
           <li><a href="https://www.apple.com/fr/contact/" title="contact">Contact</a></li>
         </ul>
         <div class="footerLogo">
@@ -112,7 +128,7 @@
           <li><a href="https://investor.apple.com/investor-relations/default.aspx" title="investisseurs">Investisseurs</a></li>
         </ul>
       </div>
-      <div class="barreHorizontale">
+      <div class="barreHorizontale2">
       </div>
       </div>
       <div class="footer2">
@@ -121,7 +137,7 @@
         <a href="https://www.apple.com/legal/privacy/fr-ww/cookies/" title="cookies">Utilisations des cookies</a>
         <a href="https://www.apple.com/fr/legal/internet-services/terms/site.html" title="conditions utilisations">Conditions d'utilisations</a>
         <a href="https://www.apple.com/fr/legal/" title="mentions legales">Mentions légales</a>
-        
+
       </div>
     </footer>
     <script type="text/javascript" src="scripts/buy.js"></script>
