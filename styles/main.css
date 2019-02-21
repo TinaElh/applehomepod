@@ -102,7 +102,7 @@ main{
 }
 
 .imgText h2{
-  font-size : 20px;
+  font-size : 24px;
   color : white;
   font-weight: lighter;
 }
@@ -209,7 +209,7 @@ img.background{
   }
 .carousselText div p{
   color : black;
-  font-size : 20px;
+  font-size : 24px;
 }
 
 .carousselMusicImg{
@@ -477,21 +477,12 @@ header #header{
     margin-top : 300px;
   }
 
-  .footer{
-    margin-left: 0px;
-    padding-top : 20px;
-  }
 
-  .footer2 img{
-    width : 50px;
-    height: 50px;
-    bottom : 270px;
-    right : 550px;
-  }
+
 
   .footer2{
     width: 1000px;
-    height: 100px;
+    height: 40px;
     margin-left: 30px;
     margin-right: auto;
     position : relative;
@@ -712,44 +703,18 @@ header #header{
 }
 
 
-
+main {
+  
+}
 /*FOOTER*/
 
-.footer{
-  width : 1260px;
-  height: 140px;
-  display : flex;
-  align-content:center;
-  margin-left : 70px;
-}
+
 
 .footer ul li{
   margin : 20px 5px 10px 5px;
 
 }
-.footer2{
-  width: 1000px;
-  height: 100px;
-  margin-left: 40px;
-  margin-right: auto;
-  position : relative;
-}
 
-
-.footer2 img{
-  position : static;
-}
-
-.footer2 img{
-  width : 50px;
-  height: 50px;
-  position : absolute;
-  bottom : 270px;
-  right : 580px;
-}
-
-
-}
 
 
 @media screen and (min-width: 1px ) and (max-width : 740px){
