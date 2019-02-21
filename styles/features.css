@@ -17,7 +17,7 @@ body {
   padding: 0;
   color: white;
   overflow-x: hidden;
-  background: #ffffff
+  background: white;
 }
 
 /*HEADER*/
@@ -77,8 +77,6 @@ header .buttonBuy:hover {
 /*MAIN*/
 .imgtext {
   position: absolute;
-  display: flex;
-  flex-direction:
 }
 
 h1.imgtext {
@@ -150,7 +148,7 @@ li p {
 /* son */
 .son .applemusic {
   position: absolute;
-  top: 2680px;
+  top: 2665px;
   right: 150px;
 }
 
@@ -264,97 +262,4 @@ left: 114px;
   font-size: 24px;
   color: black;
   left: 111px;
-}
-
-/* FOOTER */
-
-.barreHorizontale{
-  border: 1px solid rgba(0, 0, 0, 0.6);
-  width : 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top : 30px;
-}
-
-.footer{
-  height: 140px;
-  display: flex;
-  align-content:center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 66%;
-  position: absolute;
-  top: 3800px;
-
-}
-
-.footer ul{
-  list-style: none;
-  width: 20%;
-  list-style: none;
-}
-
-.footer ul li{
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-.footer ul li a{
-  color : black;
-  text-decoration: none;
-}
-
-.footer ul li a:hover{
-  color : #c2c3c7;
-  transition : all 0.2s;
-}
-
-ul.footerList1, ul.footerList2 {
-  padding-left: 64px;
-  padding-right: 20px;
-}
-
-.footerLogo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footerLogo img {
-  width: 50px;
-  height: auto;
-}
-
-/*2ème FOOTER */
-
-.footer2{
-  display: flex;
-  width: 928px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-.footer2 a{
-  font-size: 12px;
-  text-decoration: none;
-  color : black;
-  margin-right: 7px;
-  padding-right: 10px;
-  margin-top: 7px;
-  border-right : 1px solid black;
-  margin-bottom: 10px;
-}
-
-.footer2 a:last-child{
-  border-right : none;
-}
-
-.barreHorizontale2{
-  border: 1px solid rgba(0, 0, 0, 0.6);
-  width : 900px;
-  margin : 60px auto 20px auto;
 }
