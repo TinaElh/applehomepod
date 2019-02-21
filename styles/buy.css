@@ -1,3 +1,23 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-weight: normal;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face{
+    font-family: "SF Pro Text";
+    font-weight: bold;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+
+body{
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin:0;
+    padding:0;
+    font-size:17px;
+    background-color: #FFF;
+}
+
 main.buyPage {
     background-color: #f4f4f4;
     height: 900px;
@@ -72,10 +92,10 @@ main.buyPage {
     margin-right: 10px;
     display: flex;
     justify-content: center;
-*}
+}
 
 .gray-choice {
-    background-color: #f4f4f4;
+    background-color: #535658;
 }
 
 .white-choice {
@@ -97,6 +117,9 @@ main.buyPage {
     opacity: 1;
 }
 
+.color-button.gray-choice:hover p {
+    color: #fafafa;
+}
 .pagination-button__Button {
     border: 2px solid black;
     border-radius: 4px;
@@ -262,7 +285,7 @@ ANIMATIONS
 
   .buy-action h3 {
       margin-top: 3px;
-      font-size: 15px;
+      font-size: 31px;
       font-weight: normal;
   }
 
@@ -270,34 +293,24 @@ ANIMATIONS
 
 @media screen and (min-width : 1px) and (max-width : 860px){
 
-
-  .ongletNav{
-  transition: color 0.3s ease;
-}
-
-.ongletNav:hover{
-  color: grey;
-}
-
+    .container__buy {
+        width: 1260px;
+        height:900px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  
+    }
 
   .display-slider {
       display: flex;
-      width: 640px;
+      width: 70%;
       flex-direction: column;
       justify-content: center;
       align-content: center;
       animation: test 1.5s;
-  }
-
-  .container__buy {
-      width: 1260px;
-      height:900px;
-      margin-right: auto;
-      margin-left: auto;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
   }
 
   .buy-slider img {
@@ -305,7 +318,60 @@ ANIMATIONS
       height: auto;
   }
 
+  .buy-action h2 {
+    font-size: 40px;
+    line-height: 85%;
+  }
 
+  .pagination-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 330px;
+    margin-top: 30px;
+    }
 
+    .pagination-button__Button {
+        width: 75px;
+        height: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
 
+    .choice-color {
+        width: 335px;
+    }
+    .color-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .shipping-info {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .shipping-info__info-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .shipping-info__info-section ul {
+        list-style: none;
+        margin-left: -29px;
+    }
+
+    .shipping-choice {
+        background: url(../images/icon-shipping2.png);
+    }
+
+    .shop-choice {
+        background: url(../images/icon-shop2.png);
+    }
+
+    .color-button p {
+        margin-top: 16px;
+    }
 }
