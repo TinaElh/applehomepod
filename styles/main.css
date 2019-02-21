@@ -50,7 +50,7 @@ header a{
 .ongletNav:hover{
   color: #c2c3c7;
   transition : all 0.2s;
-  border-bottom: 15px solid black;
+  border-bottom: 2px solid black;
 }
 
 header .buttonBuy{
@@ -71,10 +71,14 @@ header .buttonBuy:hover{
 }
 
 .current{
-  border-bottom: 15px solid black;
+  border-bottom: 2px solid black;
 }
 
 /*MAIN*/
+
+main{
+  margin-top: 15px;
+}
 
 .imgText{
   position : absolute;
