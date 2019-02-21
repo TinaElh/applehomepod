@@ -198,6 +198,7 @@ img.background
 
 /*Caroussel*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .caroussel{
   width: 1260px;
@@ -261,6 +262,8 @@ img.background
   height:0px;
   border-top: 20px solid transparent;
 =======
+=======
+>>>>>>> d5e47dba493003b786cd72f7ea82625e75c7e392
 .caroussel
 {
 	width: 1260px;
@@ -334,6 +337,9 @@ img.background
 	width:0px;
 	height:0px;
 	border-top: 20px solid transparent;
+<<<<<<< HEAD
+>>>>>>> d5e47dba493003b786cd72f7ea82625e75c7e392
+=======
 >>>>>>> d5e47dba493003b786cd72f7ea82625e75c7e392
 	border-left: 30px solid #000;
 	border-bottom: 20px solid transparent;
@@ -357,6 +363,7 @@ img.background
 	margin-left: auto;
 	margin-right: auto;
 	margin-top : 30px;
+<<<<<<< HEAD
 }
 
 .footer
@@ -415,6 +422,66 @@ ul.footerList1, ul.footerList2
 	height: auto;
 }
 
+=======
+}
+
+.footer
+{
+	height: 140px;
+	display: flex;
+	align-content:center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
+}
+
+.footer ul
+{
+	list-style: none;
+	width: 20%;
+	list-style: none;
+}
+
+.footer ul li
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.footer ul li a
+{
+	color : black;
+	text-decoration: none;
+}
+
+.footer ul li a:hover
+{
+	color : #c2c3c7;
+	transition : all 0.2s;
+}
+
+ul.footerList1, ul.footerList2
+{
+	padding-left: 64px;
+	padding-right: 20px;
+}
+
+.footerLogo
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footerLogo img
+{
+	width: 50px;
+	height: auto;
+}
+
+>>>>>>> d5e47dba493003b786cd72f7ea82625e75c7e392
 /*2ème FOOTER */
 .footer2
 {
@@ -467,6 +534,7 @@ ul.footerList1, ul.footerList2
 }
 
 /* MEDIA QUERIES */
+<<<<<<< HEAD
 <<<<<<< HEAD
 @media screen and (min-width: 1250px ) and (max-width : 1278px){
 
@@ -1235,6 +1303,8 @@ header #header{
 =======
 
 =======
+=======
+>>>>>>> d5e47dba493003b786cd72f7ea82625e75c7e392
 @media screen and (min-width: 1250px ) and (max-width : 1278px)
 {
 	.imgText
@@ -2001,5 +2071,8 @@ header #header{
 	{
 		transform: none;
 	}
+<<<<<<< HEAD
+>>>>>>> d5e47dba493003b786cd72f7ea82625e75c7e392
+=======
 >>>>>>> d5e47dba493003b786cd72f7ea82625e75c7e392
 }
