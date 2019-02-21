@@ -209,14 +209,14 @@ main.buyPage {
 
 .display-slider {
     display: flex;
-    animation: test 1.5s;
+    animation: buyPageAnimation 1.5s;
 }
 
 
 /*
 ANIMATIONS
 */
-@keyframes test {
+@keyframes buyPageAnimation {
     0% {
         transform: translateY(-80px);
     }
