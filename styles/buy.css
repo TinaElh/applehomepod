@@ -222,6 +222,7 @@ FOOTER
 .footer {
     margin-left: auto;
     margin-right: auto;
+    height: 90%;
 }
 .footer ul {
     width: 25%;
@@ -230,4 +231,34 @@ FOOTER
 
 .footer2 img {
     right: 35%;
+}
+
+.footer2 {
+    display: flex;
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.footer2 a {
+    margin-top: 13px;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerLogo img {
+    width: 50px;
+    height: auto;
+}
+
+.barreHorizontale {
+    margin-top: 22px;
 }
