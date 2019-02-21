@@ -238,24 +238,28 @@ img.background{
   width : 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top : 100px;
+  margin-top : 30px;
 }
 
 .footer{
-  width : 1260px;
   height: 140px;
   display: flex;
   align-content:center;
-  margin-left: 250px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
 }
 
 .footer ul{
   list-style: none;
+  width: 20%;
+  list-style: none;
 }
 
 .footer ul li{
-  margin : 20px 20px 40px 40px;
-
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .footer ul li a{
@@ -268,14 +272,33 @@ img.background{
   transition : all 0.2s;
 }
 
+ul.footerList1, ul.footerList2 {
+  padding-left: 64px;
+  padding-right: 20px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footerLogo img {
+  width: 50px;
+  height: auto;
+}
+
 /*2ème FOOTER */
 
 .footer2{
-  width: 1000px;
-  height: 100px;
-  margin-left: 300px;
+  display: flex;
+  width: 928px;
+  height: auto;
+  margin-left: auto;
   margin-right: auto;
-  position : relative;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 .footer2 a{
   font-size: 12px;
@@ -283,26 +306,19 @@ img.background{
   color : black;
   margin-right: 7px;
   padding-right: 10px;
-  margin-top: 30px;
+  margin-top: 7px;
   border-right : 1px solid black;
+  margin-bottom: 10px;
 }
 
 .footer2 a:last-child{
   border-right : none;
 }
 
-.footer2 img{
-  width : 50px;
-  height: 50px;
-  position : absolute;
-  bottom : 270px;
-  right : 550px;
-}
-
 .barreHorizontale2{
   border: 1px solid rgba(0, 0, 0, 0.6);
   width : 900px;
-  margin : 60px auto 30px auto;
+  margin : 60px auto 20px auto;
 }
 
 
