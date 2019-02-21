@@ -1,4 +1,4 @@
- /*HomeKit animation text*/
+ /*HomeKit Experience animation text*/
 
 .homeKit__animation__container{
     margin-top: 20px;
@@ -27,7 +27,7 @@
     }
 }
 
-  /* PICTURES */
+  /* Img, animations HomeKit Experience */
 
 #house {
     position: relative;
@@ -54,7 +54,7 @@
     background-color: rgba(0,0,0,0.6);
 }
 
-  /* BUTTONS */
+  /* Buttons img homeKit Experience */
 
 .buttons{
     display:flex;
