@@ -172,12 +172,6 @@ header .buttonBuy:hover{
 
 /* H3 FOR BUTTONS */
 
-.h2{
-  color : red;
-  position : absolute;
-  left : 100px;
-}
-
 .h3{
     font-style: normal;
     font-size: 12px;
