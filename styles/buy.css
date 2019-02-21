@@ -9,9 +9,7 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
-header {
-    margin: none;
-}
+
 body{
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin:0;
@@ -87,10 +85,10 @@ main.buyPage {
     margin-right: 10px;
     display: flex;
     justify-content: center;
-*}
+}
 
 .gray-choice {
-    background-color: #f4f4f4;
+    background-color: #535658;
 }
 
 .white-choice {
@@ -112,6 +110,9 @@ main.buyPage {
     opacity: 1;
 }
 
+.color-button.gray-choice:hover p {
+    color: #fafafa;
+}
 .pagination-button__Button {
     border: 2px solid black;
     border-radius: 4px;
