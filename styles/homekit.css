@@ -10,7 +10,7 @@
     display: block;
     text-transform: uppercase;
     color: black;
-    font-size: 60px;
+    font-size: 4vw;
     font-weight: 500;
     letter-spacing: 8px;
     word-spacing: 10px;
@@ -95,7 +95,7 @@
     display: block;
     text-transform: uppercase;
     color: black;
-    font-size: 40px;
+    font-size: 3vw;
     letter-spacing: 5px;
 }
 
@@ -148,20 +148,4 @@
 
 #s1:checked ~ #slide3, #s2:checked ~ #slide4, #s3:checked ~ #slide5, #s4:checked ~ #slide1, #s5:checked ~ #slide2 {
     transform: translate3d(30%,0,-200px);
-}
-
-#slide1 {
-    background: #333333
-}
-#slide2 {
-    background: #424242
-}
-#slide3 {
-    background: #545454
-}
-#slide4 {
-    background: #6d6d6d
-}
-#slide5 {
-    background: #8c8c8c
 }
