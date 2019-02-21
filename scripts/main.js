@@ -15,16 +15,20 @@ buttonCaroussel.addEventListener("click", (e) => {
 	e.preventDefault()
     currentPicture++ //La valeur de currentPicture augmente de 1
 	if(currentPicture >= sliderImages.length){ 
+        console.log("1")
+        console.log('Current pic : '+currentPicture)
         currentPicture = 0
         sliderImages[currentPicture].style.opacity = 1; //Augmenter l'opacité de l'image du HomePod en fonction de la position
         document.querySelector(".carousselTextCard:not(.nonVisible").classList.add("nonVisible") // Classe nonVisible pour les éléments textes
         slides[currentPicture].classList.remove("nonVisible") 
         sliderImages[sliderImages.length-1].style.opacity = 0; // Mettre l'opacité à 0 pour l'image du HomePod lorsqu'une autre est sélectionnée
 	}else{ 
+        console.log("2")
+        console.log('Current pic : '+currentPicture)
         sliderImages[currentPicture].style.opacity = 1; 
         document.querySelector(".carousselTextCard:not(.nonVisible").classList.add("nonVisible")
-        slides[currentPicture].classList.remove("nonVisible")
         sliderImages[currentPicture-1].style.opacity = 0;
+        slides[currentPicture].classList.remove("nonVisible")
     }
 })
 

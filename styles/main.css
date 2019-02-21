@@ -205,6 +205,10 @@ img.background
 	margin-right: 200px;
 	position : relative;
 }
+.imgInterieur .visible
+{
+    opacity: 1;
+}
 
 .imgInterieur img
 {
