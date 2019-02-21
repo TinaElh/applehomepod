@@ -77,24 +77,31 @@ header .buttonBuy:hover {
 /*MAIN*/
 .imgtext {
   position: absolute;
+  width: 100%;
+  display: block;
 }
 
 h1.imgtext {
-    font-family: "SF Pro Text";
+  font-family: "SF Pro Text";
   font-size: 50px;
   color: white;
-  left: 700px;
-  top: 250px;
+  width: 100%;
+  top: 80px;
+  right: -10px;
+      display: block;
+
 }
 
 h2.imgtext {
-    font-family: "SF Pro Text";
+  font-family: "SF Pro Text";
   font-size: 20px;
   color: white;
   font-weight: lighter;
-  left: 700px;
-  top: 320px;
-  right: 50px;
+  width: 100%;
+  top: 150px;
+    display: block;
+    right: -12px
+
 }
 
 img.background {
@@ -153,7 +160,7 @@ li p {
 }
 
 .son h4 {
-    font-family: "SF Pro Text";
+  font-family: "SF Pro Text";
   position: absolute;
   top: 2680px;
   font-style: normal;
@@ -166,15 +173,13 @@ li p {
 
 .gif {
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 360px;
   top: 2780px;
+  left: 122px;
 }
 
-
-
 /*environnement*/
-
 .trait2 {
   height: 1pt;
   width: 80%;
@@ -185,8 +190,8 @@ li p {
   background-color: black;
 }
 
-.environnement h5{
-    font-family: "SF Pro Text";
+.environnement h5 {
+  font-family: "SF Pro Text";
   position: absolute;
   top: 3140px;
   font-style: normal;
@@ -196,63 +201,68 @@ li p {
   color: #0A4E09;
   left: 170px;
 }
-.boldenvironement{
+
+.boldenvironement {
   font-family: "SF Pro Text";
-position: absolute;
-top: 3180px;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 28px;
-color: black;
-left: 114px;
+  position: absolute;
+  top: 3180px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 28px;
+  color: black;
+  left: 114px;
 }
 
-.textlighter{
+.textlighter {
   font-family: "SF Pro Text";
-position: absolute;
-top: 3260px;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-color: black;
-left: 111px;
+  position: absolute;
+  top: 3260px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  color: black;
+  left: 111px;
 }
-.boldenvironement2{
+
+.boldenvironement2 {
   font-family: "SF Pro Text";
-position: absolute;
-top: 3320px;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 28px;
-color: black;
-left: 114px;
+  position: absolute;
+  top: 3320px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 28px;
+  color: black;
+  left: 114px;
 }
-.textlighter2{
-font-family: "SF Pro Text";
-position: absolute;
-top: 3435px;
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-color: black;
-left: 75px;
-}
-.boldenvironement3{
+
+.textlighter2 {
   font-family: "SF Pro Text";
-position: absolute;
-top: 3520px;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 28px;
-color: black;
-left: 114px;
+  position: absolute;
+  top: 3435px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  color: black;
+  left: 75px;
 }
-.textlighter3{
+
+.boldenvironement3 {
+  font-family: "SF Pro Text";
+  position: absolute;
+  top: 3520px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 28px;
+  color: black;
+  left: 114px;
+}
+
+.textlighter3 {
   font-family: "SF Pro Text";
   position: absolute;
   top: 3600px;
@@ -263,3 +273,104 @@ left: 114px;
   color: black;
   left: 111px;
 }
+
+/* FOOTER */
+.barreHorizontale {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  position: absolute;
+  top: 3740px;
+  left: 280px;
+}
+
+.footer {
+  height: 140px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 66%;
+  position: absolute;
+  top: 3750px;
+    left: 280px;
+}
+
+.footer ul {
+  list-style: none;
+  width: 20%;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #c2c3c7;
+  transition: all 0.2s;
+}
+
+ul.footerList1, ul.footerList2 {
+  padding-left: 64px;
+  padding-right: 20px;
+}
+
+.footerLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLogo img {
+  width: 50px;
+  height: auto;
+}
+
+/*2ème FOOTER */
+.footer2 {
+  display: flex;
+  width: 928px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: absolute;
+  position: absolute;
+  top: 1260px;
+}
+
+.footer2 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+  margin-right: 7px;
+  padding-right: 10px;
+  margin-top: 7px;
+  border-right: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.footer2 a:last-child {
+  border-right: none;
+}
+
+.barreHorizontale2 {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  width: 900px;
+  margin: 60px auto 20px auto;
+  position: absolute;
+  top: 3900px;
+  left: 280px;
