@@ -1,1086 +1,1171 @@
-@font-face {
-    font-family: "SF Pro Text";
-    font-weight: normal;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
-}
-@font-face{
-    font-family: "SF Pro Text";
-    font-weight: bold;
-    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+@font-face
+{
+	font-family: "SF Pro Text";
+	font-weight: normal;
+	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
-body{
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 17px;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    overflow-x: hidden;
+@font-face
+{
+	font-family: "SF Pro Text";
+	font-weight: bold;
+	src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+body
+{
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 /*HEADER*/
-
-#menuToggle{
-  display: none;
+#menuToggle
+{
+	display: none;
 }
 
-header{
-    font-family: "SF Pro Text";
-    width: 100%;
-    height: 52px;
-/*  border-bottom: 0.5px solid black; */
-    margin-right: 20px;
-    margin-left: 20px;
+header
+{
+	font-family: "SF Pro Text";
+	width: 100%;
+	height: 52px;
+	/*  border-bottom: 0.5px solid black;
+	*/
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
-.homepodTitle{
-  display: none;
+.homepodTitle
+{
+	display: none;
 }
 
-.navBar__container{
-  display : flex;
-  justify-content: space-around;
-  width : 100%;
-  margin-left: auto;
-  margin-right: auto;
+.navBar__container
+{
+	display : flex;
+	justify-content: space-around;
+	width : 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-header h2 {
-  margin-top: 5px;
-  font-size: 35px;
+header h2
+{
+	margin-top: 5px;
+	font-size: 35px;
 }
 
-header a{
-    text-decoration: none;
-    margin-top: 16px;
-    color: black;
+header a
+{
+	text-decoration: none;
+	margin-top: 16px;
+	color: black;
 }
 
-.ongletNav:hover{
-  color: #c2c3c7;
-  transition : all 0.2s;
-  border-bottom: 2px solid black;
+.ongletNav:hover
+{
+	color: #c2c3c7;
+	transition : all 0.2s;
+	border-bottom: 2px solid black;
 }
 
-header .buttonBuy{
-    font-weight: normal;
-    padding: 6px 40px 0px 40px;
-    margin-top: 10px;
-    height: 27px;
-    color: #FFF;
-    background: linear-gradient(#42a1ec, #0070c9);
-    border-color: #07c;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 4px;
+header .buttonBuy
+{
+	font-weight: normal;
+	padding: 6px 40px 0px 40px;
+	margin-top: 10px;
+	height: 27px;
+	color: #FFF;
+	background: linear-gradient(#42a1ec, #0070c9);
+	border-color: #07c;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 4px;
 }
 
-header .buttonBuy:hover{
-  background : linear-gradient(#51a9ee,#147bcd)
-}
+header .buttonBuy:hover
+{
+background : linear-gradient(#51a9ee,#147bcd)}
 
-.current{
-  border-bottom: 2px solid black;
+.current
+{
+	border-bottom: 2px solid black;
 }
 
 /*MAIN*/
-
-main{
-  margin-top: 25px;
+main
+{
+	margin-top: 25px;
 }
 
-.imgText{
-  position : absolute;
-  left : 700px;
-  top : 100px;
-  width: 625px;
-  animation: indexAnimate 1.5s;
+.imgText
+{
+	position : absolute;
+	left : 700px;
+	top : 100px;
+	width: 625px;
+	animation: indexAnimate 1.5s;
 }
 
-.imgText h1{
-  font-size: 64px;
-  color : white;
+.imgText h1
+{
+	font-size: 64px;
+	color : white;
 }
 
-.imgText h2{
-  font-size : 24px;
-  color : white;
-  font-weight: lighter;
+.imgText h2
+{
+	font-size : 24px;
+	color : white;
+	font-weight: lighter;
 }
 
-img.background{
-  width: 100%;
-  height: auto;
-  margin-bottom: 50px;
+img.background
+{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
 }
 
-.dimensionEnceinte{
-  width : 70%;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin: 0 auto;
+.dimensionEnceinte
+{
+	width : 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+	margin: 0 auto;
 }
 
-.texteImageDimension{
-  display : flex;
-  position : relative;
+.texteImageDimension
+{
+	display : flex;
+	position : relative;
 }
 
-.presentationTexte h2{
-  font-size : 66px;
-  font-weight: bold;
-  width: 400px;
+.presentationTexte h2
+{
+	font-size : 66px;
+	font-weight: bold;
+	width: 400px;
 }
 
-.presentationTexte h3{
-  font-size : 24px;
-  font-weight: lighter;
+.presentationTexte h3
+{
+	font-size : 24px;
+	font-weight: lighter;
 }
 
-.presentationTexte a{
-  color : #0070c9;
-  font-weight: lighter;
-  text-decoration: none;
+.presentationTexte a
+{
+	color : #0070c9;
+	font-weight: lighter;
+	text-decoration: none;
 }
 
-.presentationTexte a:hover{
-  color : #51a9ee;
+.presentationTexte a:hover
+{
+	color : #51a9ee;
 }
 
-.presentationTexte{
-    width: 100%;
-    height: 60%;
+.presentationTexte
+{
+	width: 100%;
+	height: 60%;
 }
 
-
-
-.grisSideral{
-  position: absolute;
-  left: 80%;
-  top : 83%;
+.grisSideral
+{
+	position: absolute;
+	left: 80%;
+	top : 83%;
 }
 
-.blanc{
-  position: absolute;
-  left: 60%;
-  top : 83%;
+.blanc
+{
+	position: absolute;
+	left: 60%;
+	top : 83%;
 }
 
-.homePod_deux{
-  width: 70%;
-  height: 40%;
+.homePod_deux
+{
+	width: 70%;
+	height: 40%;
 }
 
 /*Caroussel*/
-
-.caroussel{
-  width: 1260px;
-  height: 600px;
-  margin-left: 200px;
-  margin-right: 200px;
-  position : relative;
+.caroussel
+{
+	width: 1260px;
+	height: 600px;
+	margin-left: 200px;
+	margin-right: 200px;
+	position : relative;
 }
 
-.imgInterieur img{
-  position : absolute;
-  transition-duration: 1s;
-  opacity : 0;
-  width : 430px;
-  height: 600px;
+.imgInterieur img
+{
+	position : absolute;
+	transition-duration: 1s;
+	opacity : 0;
+	width : 430px;
+	height: 600px;
 }
 
-.carousselTextCard{
-  opacity : 1;
-  position: absolute;
-  left : 500px;
-  margin-right: 300px;
+.carousselTextCard
+{
+	opacity : 1;
+	position: absolute;
+	left : 500px;
+	margin-right: 300px;
 }
 
-.nonVisible{
-  opacity : 0;
-  position: absolute;
-  left : 500px;
-  margin-right: 300px;
+.nonVisible
+{
+	opacity : 0;
+	position: absolute;
+	left : 500px;
+	margin-right: 300px;
 }
 
-.carousselText div h2{
-  font-size : 56px;
-  font-weight: lighter;
-  width: 600px;
-  }
-.carousselText div p{
-  color : black;
-  font-size : 24px;
+.carousselText div h2
+{
+	font-size : 56px;
+	font-weight: lighter;
+	width: 600px;
 }
 
-.carousselMusicImg{
-  position: absolute;
-  top : 500px;
-  left : 600px;
-  width : 150px;
-  height: 130px;
+.carousselText div p
+{
+	color : black;
+	font-size : 24px;
 }
 
-.carousselSiriImg{
-  position: absolute;
-  top : 540px;
-  left : 800px;
-  width : 60px;
-  height: 60px;
+.carousselMusicImg
+{
+	position: absolute;
+	top : 500px;
+	left : 600px;
+	width : 150px;
+	height: 130px;
 }
 
-.carousselBtn {
-  position : absolute;
-  top : 270px;
-  left : 1130px;
-  width:0px;
-  height:0px;
-  border-top: 20px solid transparent;
+.carousselSiriImg
+{
+	position: absolute;
+	top : 540px;
+	left : 800px;
+	width : 60px;
+	height: 60px;
+}
+
+.carousselBtn
+{
+	position : absolute;
+	top : 270px;
+	left : 1130px;
+	width:0px;
+	height:0px;
+	border-top: 20px solid transparent;
 	border-left: 30px solid #000;
 	border-bottom: 20px solid transparent;
 }
 
-.carousselBtn:hover{
-  border-top: 25px solid transparent;
-	border-left: 40px solid #c2c3c7;;
+.carousselBtn:hover
+{
+	border-top: 25px solid transparent;
+	border-left: 40px solid #c2c3c7;
+	;
 	border-bottom: 25px solid transparent;
-  top : 265px;
-  transition : all 0.5s;
+	top : 265px;
+	transition : all 0.5s;
 }
 
 /* FOOTER */
-
-.barreHorizontale{
-  border: 1px solid rgba(0, 0, 0, 0.6);
-  width : 900px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top : 30px;
+.barreHorizontale
+{
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	width : 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top : 30px;
 }
 
-.footer{
-  height: 140px;
-  display: flex;
-  align-content:center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 66%;
+.footer
+{
+	height: 140px;
+	display: flex;
+	align-content:center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 66%;
 }
 
-.footer ul{
-  list-style: none;
-  width: 20%;
-  list-style: none;
+.footer ul
+{
+	list-style: none;
+	width: 20%;
+	list-style: none;
 }
 
-.footer ul li{
-  margin-top: 20px;
-  margin-bottom: 40px;
+.footer ul li
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
-.footer ul li a{
-  color : black;
-  text-decoration: none;
+.footer ul li a
+{
+	color : black;
+	text-decoration: none;
 }
 
-.footer ul li a:hover{
-  color : #c2c3c7;
-  transition : all 0.2s;
+.footer ul li a:hover
+{
+	color : #c2c3c7;
+	transition : all 0.2s;
 }
 
-ul.footerList1, ul.footerList2 {
-  padding-left: 64px;
-  padding-right: 20px;
+ul.footerList1, ul.footerList2
+{
+	padding-left: 64px;
+	padding-right: 20px;
 }
 
-.footerLogo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.footerLogo
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-.footerLogo img {
-  width: 50px;
-  height: auto;
+
+.footerLogo img
+{
+	width: 50px;
+	height: auto;
 }
 
 /*2ème FOOTER */
-
-.footer2{
-  display: flex;
-  width: 928px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-.footer2 a{
-  font-size: 12px;
-  text-decoration: none;
-  color : black;
-  margin-right: 7px;
-  padding-right: 10px;
-  margin-top: 7px;
-  border-right : 1px solid black;
-  margin-bottom: 10px;
+.footer2
+{
+	display: flex;
+	width: 928px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	justify-content: space-between;
+	margin-bottom: 10px;
 }
 
-.footer2 a:last-child{
-  border-right : none;
+.footer2 a
+{
+	font-size: 12px;
+	text-decoration: none;
+	color : black;
+	margin-right: 7px;
+	padding-right: 10px;
+	margin-top: 7px;
+	border-right : 1px solid black;
+	margin-bottom: 10px;
 }
 
-.barreHorizontale2{
-  border: 1px solid rgba(0, 0, 0, 0.6);
-  width : 900px;
-  margin : 60px auto 20px auto;
+.footer2 a:last-child
+{
+	border-right : none;
 }
 
-/*
-ANIMATIONS
-*/
-@keyframes indexAnimate {
-  0% {
-      transform: translateY(-80px);
-  }
-
-  100% {
-      transform: translateY(0px);
-  }
+.barreHorizontale2
+{
+	border: 1px solid rgba(0, 0, 0, 0.6);
+	width : 900px;
+	margin : 60px auto 20px auto;
 }
 
+/*ANIMATIONS*/
+@keyframes indexAnimate
+{
+	0%
+	{
+		transform: translateY(-80px);
+	}
+
+	100%
+	{
+		transform: translateY(0px);
+	}
+}
 
 /* MEDIA QUERIES */
-@media screen and (min-width: 1250px ) and (max-width : 1278px){
+@media screen and (min-width: 1250px ) and (max-width : 1278px)
+{
+	.imgText
+	{
+		position : absolute;
+		left : 600px;
+		top : 100px;
+		width: 600px;
+		height: 600px;
+		bottom : 300%;
+	}
 
-  .imgText{
-    position : absolute;
-    left : 600px;
-    top : 100px;
-    width: 600px;
-    height: 600px;
-    bottom : 300%;
-  }
+	.navBar__container
+	{
+		display : flex;
+		justify-content: space-around;
+		width : 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-  .navBar__container{
-    display : flex;
-    justify-content: space-around;
-    width : 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .imgInterieur img{
-    width : 10px;
-    position : absolute;
-    top : 300px;
-  }
-
+	.imgInterieur img
+	{
+		width : 10px;
+		position : absolute;
+		top : 300px;
+	}
 }
 
-@media screen and (min-width: 915px ) and (max-width : 1250px){
+@media screen and (min-width: 915px ) and (max-width : 1250px)
+{
+	body
+	{
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 17px;
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
 
-  body{
-      font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 17px;
-      margin: 0;
-      padding: 0;
-      max-width: 100%;
-      overflow-x: hidden;
-  }
-  .navBar__container{
-    width: 100%;
-  }
+	.navBar__container
+	{
+		width: 100%;
+	}
 
+	/*HEADER*/
+	header #header
+	{
+		position : relative;
+	}
 
-/*HEADER*/
+	.navBar__container
+	{
+		display : flex;
+		justify-content: space-around;
+		width : 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-header #header{
-  position : relative;
+	/*MAIN*/
+	.imgText
+	{
+		position : absolute;
+		left : 500px;
+		top : 100px;
+		width: 600px;
+		height: 600px;
+		bottom : 300%;
+	}
+
+	.imgText h1
+	{
+		font-size: 45px;
+		color : white;
+	}
+
+	.imgText h2
+	{
+		font-size : 20px;
+		color : white;
+		font-weight: lighter;
+	}
+
+	.grisSideral
+	{
+		position: absolute;
+		left: 90%;
+		top : 83%;
+	}
+
+	.blanc
+	{
+		position: absolute;
+		left: 70%;
+		top : 83%;
+	}
+
+	/*CAROUSSEL*/
+	.imgInterieur img
+	{
+		position : absolute;
+		top : 300px;
+	}
+
+	.carousselTextCard
+	{
+		position : static;
+		margin-right: 300px;
+		right : 200px;
+	}
+
+	.caroussel p
+	{
+		margin-right : 200px;
+		font-size : 20px;
+	}
+
+	.carousselMusicImg
+	{
+		position: absolute;
+		top : 350px;
+		left : 500px;
+		width : 150px;
+		height: 140px;
+	}
+
+	.carousselSiriImg
+	{
+		position: absolute;
+		top : 395px;
+		left : 700px;
+		width : 60px;
+		height: 60px;
+	}
+
+	.carousselBtn
+	{
+		position : absolute;
+		top : 200px;
+		left : 800px;
+		width:0px;
+		height:0px;
+		border-top: 20px solid transparent;
+		border-left: 30px solid #000;
+		border-bottom: 20px solid transparent;
+	}
+
+	.carousselBtn:hover
+	{
+		top : 195px;
+	}
+
+	/*FOOTER*/
+	.barreHorizontale
+	{
+		margin-top : 24px;
+	}
+
+	.footer2
+	{
+		width: 82%;
+		height: 40px;
+		position : relative;
+	}
 }
 
+@media screen and (min-width: 915px ) and (max-width : 1066px)
+{
+	.navBar__container
+	{
+		display : flex;
+		justify-content: space-around;
+		width : 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-.navBar__container{
-  display : flex;
-  justify-content: space-around;
-  width : 100%;
-  margin-left: auto;
-  margin-right: auto;
+	.imgText
+	{
+		position : absolute;
+		left : 200px;
+		top : 200px;
+		width: 600px;
+		height: 600px;
+		bottom : 300%;
+	}
+
+	.imgText h1
+	{
+		font-size: 36px;
+		color : white;
+	}
+
+	.imgText h2
+	{
+		font-size : 16px;
+		color : white;
+		font-weight: lighter;
+	}
 }
 
-/*MAIN*/
+@media screen and (min-width: 740px ) and (max-width : 915px)
+{
+	body
+	{
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 17px;
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
 
-.imgText{
-  position : absolute;
-  left : 500px;
-  top : 100px;
-  width: 600px;
-  height: 600px;
-  bottom : 300%;
+	.navBar__container
+	{
+		display : flex;
+		justify-content: space-around;
+		width : 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*HEADER*/
+	/*MAIN*/
+	.imgText
+	{
+		position : absolute;
+		width : 350px;
+		left : 250px;
+		right : 50px;
+		top : 100px;
+	}
+
+	.imgText h1
+	{
+		font-size: 35px;
+		color : white;
+	}
+
+	.imgText h2
+	{
+		font-size : 14px;
+		color : white;
+		font-weight: lighter;
+	}
+
+	.dimensionEnceinte
+	{
+		width : 70%;
+		margin-right: 15%;
+		margin-left: 15%;
+		margin: 0 auto;
+	}
+
+	.texteImageDimension
+	{
+		display : block;
+		margin-left : 100px;
+		position : relative;
+	}
+
+	.presentationTexte h2
+	{
+		font-size : 66px;
+		font-weight: bold;
+		width: 400px;
+	}
+
+	.presentationTexte h3
+	{
+		font-size : 24px;
+		font-weight: lighter;
+	}
+
+	.presentationTexte a
+	{
+		color : #0070c9;
+		font-weight: lighter;
+		text-decoration: none;
+	}
+
+	.presentationTexte a:hover
+	{
+		color : #51a9ee;
+	}
+
+	.presentationTexte
+	{
+		width: 100%;
+		height: 60%;
+	}
+
+	.grisSideral
+	{
+		position: absolute;
+		left: 30%;
+		top : 92%;
+	}
+
+	.blanc
+	{
+		position: absolute;
+		left: 15%;
+		top : 92%;
+	}
+
+	.homePod_deux
+	{
+		width: 60%;
+		height: 30%;
+	}
+
+	/*CAROUSSEL*/
+	.caroussel
+	{
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.slider
+	{
+		width: 100%;
+		height: 480px;
+		position:relative;
+		overflow: hidden;
+	}
+
+	.imgInterieur
+	{
+		/* width : 100%;
+		margin-right: auto;
+		margin-left: auto;
+		*/
+		position: absolute;
+		display: flex;
+		transition: ease-in 0.5s all;
+		will-change: left;
+	}
+
+	.carousselTextCard
+	{
+		/*position : static;
+		*/
+		margin-right: 500px;
+		right : 200px;
+	}
+
+	.carousselText div h2
+	{
+		font-size : 34px;
+		font-weight: lighter;
+		width: 600px;
+	}
+
+	.carousselText div p
+	{
+		color : black;
+		font-size : 16px;
+		margin-right : 300px;
+	}
+
+	.carousselMusicImg
+	{
+		/* position: absolute;
+		*/
+		top : 250px;
+		left : 200px;
+		width : 150px;
+		height: 140px;
+	}
+
+	.carousselSiriImg
+	{
+		/*position: absolute;
+		*/
+		top : 295px;
+		left : 400px;
+		width : 60px;
+		height: 60px;
+	}
+
+	.carousselBtn
+	{
+		position : absolute;
+		top : 160px;
+		left : 500px;
+		width:0px;
+		height:0px;
+		border-top: 20px solid transparent;
+		border-left: 30px solid #000;
+		border-bottom: 20px solid transparent;
+	}
+
+	.carousselBtn:hover
+	{
+		top : 155px;
+	}
+
+	/*FOOTER*/
+	.footer ul li
+	{
+		margin : 20px 5px 10px 5px;
+	}
+
+	.footer2
+	{
+		width: 97%;
+	}
 }
 
-.imgText h1{
-  font-size: 45px;
-  color : white;
+@media screen and (min-width: 1px ) and (max-width : 740px)
+{
+	body
+	{
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 17px;
+		margin: 0;
+		padding: 0;
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	/*HEADER*/
+	header
+	{
+		padding-top: 10px;
+		height: 28px;
+	}
+
+	/*MAIN*/
+	.imgText
+	{
+		position : absolute;
+		width: 500px;
+		left : 100px;
+		right : 150px;
+		top : 130px;
+	}
+
+	.imgText h1
+	{
+		font-size: 25px;
+		color : white;
+	}
+
+	.imgText h2
+	{
+		font-size : 10px;
+		color : white;
+		font-weight: lighter;
+	}
+
+	.dimensionEnceinte
+	{
+		width : 70%;
+		margin-right: 15%;
+		margin-left: 15%;
+		margin: 0 auto;
+	}
+
+	.texteImageDimension
+	{
+		display : block;
+		margin-left : 100px;
+		position : relative;
+	}
+
+	.presentationTexte h2
+	{
+		font-size : 66px;
+		font-weight: lighter;
+		width: 400px;
+	}
+
+	.presentationTexte h3
+	{
+		font-size : 24px;
+		font-weight: lighter;
+	}
+
+	.presentationTexte a
+	{
+		color : #0070c9;
+		font-weight: lighter;
+		text-decoration: none;
+	}
+
+	.presentationTexte a:hover
+	{
+		color : #51a9ee;
+	}
+
+	.presentationTexte
+	{
+		width: 100%;
+		height: 60%;
+	}
+
+	.grisSideral
+	{
+		position: absolute;
+		left: 27%;
+		top : 95%;
+	}
+
+	.blanc
+	{
+		position: absolute;
+		left: 13%;
+		top : 95%;
+	}
+
+	.homePod_deux
+	{
+		width: 60%;
+		height: 30%;
+	}
+
+	/*CAROUSSEL*/
+	.imgInterieur
+	{
+		width : 100%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.imgInterieur img
+	{
+		position : absolute;
+		top : 50%;
+		width : 240px;
+		height: auto;
+		margin : 0px auto 0px auto;
+	}
+
+	.carousselTextCard
+	{
+		position : static;
+		margin-right: 600px;
+		right : 200px;
+	}
+
+	.carousselText div h2
+	{
+		font-size : 26px;
+		font-weight: lighter;
+		width: 300px;
+	}
+
+	.carousselText div p
+	{
+		color : black;
+		font-size : 16px;
+		margin-right : 300px;
+	}
+
+	.carousselMusicImg
+	{
+		position: absolute;
+		top : 230px;
+		left : 40px;
+		width : 100px;
+		height: 90px;
+	}
+
+	.carousselSiriImg
+	{
+		position: absolute;
+		top : 260px;
+		left : 200px;
+		width : 30px;
+		height: 30px;
+	}
+
+	.carousselBtn
+	{
+		position : absolute;
+		top : 160px;
+		left : 370px;
+		width:0px;
+		height:0px;
+		border-top: 20px solid transparent;
+		border-left: 30px solid #000;
+		border-bottom: 20px solid transparent;
+	}
+
+	.carousselBtn:hover
+	{
+		top : 155px;
+	}
+
+	/*FOOTER*/
+	.footer
+	{
+		width : 90%;
+		height: 140px;
+		display : flex;
+		align-content:center;
+		margin-left : 50px;
+	}
+
+	.footer ul li
+	{
+		margin : 20px 5px 10px 5px;
+	}
+
+	.footer ul li a
+	{
+		font-size: 12px;
+	}
+
+	ul.footerList1, ul.footerList2
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.footer2
+	{
+		width: 90%;
+		height: 100px;
+		margin-left: 40px;
+		margin-right: auto;
+		position : relative;
+	}
+
+	.footer2 a
+	{
+		font-size: 11px;
+		text-decoration: none;
+		color : black;
+		margin-right: 7px;
+		padding-right: 10px;
+		margin-top: 30px;
+		border-right : 1px solid black;
+		margin-bottom: 42px;
+	}
+
+	.footerLogo img
+	{
+		width: 40px;
+		height: auto;
+		margin-right: 10px;
+		margin-left: -28px;
+	}
+
+	/*HAMBURGER*/
+	.homepodTitle
+	{
+		display: block;
+		position: absolute;
+		width : 100%;
+		text-align: center;
+	}
+
+	.homepodTitle h2
+	{
+		font-size : 35px;
+		margin-top : 8px;
+	}
+
+	#menuToggle
+	{
+		display: block;
+		position: relative;
+		top: 10px;
+		right : 270px;
+		z-index: 1;
+		-webkit-user-select: none;
+		user-select: none;
+	}
+
+	nav h2, nav .ongletNav, nav .buttonBuy
+	{
+		display: none;
+	}
+
+	#menuToggle input
+	{
+		display: block;
+		width: 40px;
+		height: 32px;
+		position: absolute;
+		top: -7px;
+		left: -5px;
+		cursor: pointer;
+		opacity: 0;
+		/* hide this */
+		z-index: 2;
+		/* and place it over the hamburger */
+		-webkit-touch-callout: none;
+	}
+
+	#menuToggle span
+	{
+		display: block;
+		width: 33px;
+		height: 4px;
+		margin-bottom: 5px;
+		position: relative;
+		background: #cdcdcd;
+		border-radius: 3px;
+		z-index: 1;
+		transform-origin: 4px 0px;
+		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),opacity 0.55s ease;
+	}
+
+	#menuToggle span:first-child
+	{
+		transform-origin: 0% 0%;
+	}
+
+	#menuToggle span:nth-last-child(2)
+	{
+		transform-origin: 0% 100%;
+	}
+
+	#menuToggle input:checked ~ span
+	{
+		opacity: 1;
+		transform: rotate(45deg) translate(-2px, -1px);
+		background: #232323;
+	}
+
+	#menuToggle input:checked ~ span:nth-last-child(3)
+	{
+		opacity: 0;
+		transform: rotate(0deg) scale(0.2, 0.2);
+	}
+
+	#menuToggle input:checked ~ span:nth-last-child(2)
+	{
+		transform: rotate(-45deg) translate(0, -1px);
+	}
+
+	#menu
+	{
+		opacity: 0.9;
+		position: absolute;
+		width: 160px;
+		margin: -100px 0 0 -50px;
+		padding: 30px 50px;
+		padding-top: 125px;
+		left : -40px;
+		background: #ededed;
+		list-style-type: none;
+		-webkit-font-smoothing: antialiased;
+		/* pour arrêter le scintillement en safari*/
+		transform-origin: 0% 0%;
+		transform: translate(-100%, 0);
+		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+	}
+
+	#menu li
+	{
+		padding: 20px 0;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	#menuToggle input:checked ~ ul
+	{
+		transform: none;
+	}
 }
-
-.imgText h2{
-  font-size : 20px;
-  color : white;
-  font-weight: lighter;
-}
-
-.grisSideral{
-  position: absolute;
-  left: 90%;
-  top : 83%;
-}
-
-.blanc{
-  position: absolute;
-  left: 70%;
-  top : 83%;
-}
-
-
-/*CAROUSSEL*/
-  .imgInterieur img{
-    position : absolute;
-    top : 300px;
-  }
-
-  .carousselTextCard{
-    position : static;
-    margin-right: 300px;
-    right : 200px;
-  }
-
-  .caroussel p{
-    margin-right : 200px;
-    font-size : 20px;
-  }
-
-  .carousselMusicImg{
-    position: absolute;
-    top : 350px;
-    left : 500px;
-    width : 150px;
-    height: 140px;
-  }
-
-  .carousselSiriImg{
-    position: absolute;
-    top : 395px;
-    left : 700px;
-    width : 60px;
-    height: 60px;
-  }
-
-  .carousselBtn {
-    position : absolute;
-    top : 200px;
-    left : 800px;
-    width:0px;
-    height:0px;
-    border-top: 20px solid transparent;
-  	border-left: 30px solid #000;
-  	border-bottom: 20px solid transparent;
-  }
-
-  .carousselBtn:hover{
-    top : 195px;
-  }
-
-/*FOOTER*/
-
-  .barreHorizontale{
-    margin-top : 24px;
-  }
-
-
-
-
-  .footer2{
-    width: 82%;
-    height: 40px;
-    position : relative;
-  }
-
-
-
-}
-
-@media screen and (min-width: 915px ) and (max-width : 1066px){
-
-
-  .navBar__container{
-    display : flex;
-    justify-content: space-around;
-    width : 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .imgText{
-    position : absolute;
-    left : 200px;
-    top : 200px;
-    width: 600px;
-    height: 600px;
-    bottom : 300%;
-  }
-  .imgText h1{
-    font-size: 36px;
-    color : white;
-  }
-
-  .imgText h2{
-    font-size : 16px;
-    color : white;
-    font-weight: lighter;
-  }
-
-}
-
-
-@media screen and (min-width: 740px ) and (max-width : 915px){
-
-  body{
-      font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 17px;
-      margin: 0;
-      padding: 0;
-      max-width: 100%;
-      overflow-x: hidden;
-  }
-
-  .navBar__container{
-    display : flex;
-    justify-content: space-around;
-    width : 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-/*HEADER*/
-
-
-
-/*MAIN*/
-
-
-.imgText{
-  position : absolute;
-  width : 350px;
-  left : 250px;
-  right : 50px;
-  top : 100px;
-}
-
-.imgText h1{
-  font-size: 35px;
-  color : white;
-}
-
-.imgText h2{
-  font-size : 14px;
-  color : white;
-  font-weight: lighter;
-}
-
-.dimensionEnceinte{
-  width : 70%;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin: 0 auto;
-}
-
-.texteImageDimension{
-  display : block;
-  margin-left : 100px;
-  position : relative;
-}
-
-.presentationTexte h2{
-  font-size : 66px;
-  font-weight: bold;
-  width: 400px;
-}
-
-.presentationTexte h3{
-  font-size : 24px;
-  font-weight: lighter;
-}
-
-.presentationTexte a{
-  color : #0070c9;
-  font-weight: lighter;
-  text-decoration: none;
-}
-
-.presentationTexte a:hover{
-  color : #51a9ee;
-}
-
-.presentationTexte{
-    width: 100%;
-    height: 60%;
-}
-
-
-
-.grisSideral{
-  position: absolute;
-  left: 30%;
-  top : 92%;
-}
-
-.blanc{
-  position: absolute;
-  left: 15%;
-  top : 92%;
-}
-
-.homePod_deux{
-  width: 60%;
-  height: 30%;
-}
-
-
-
-/*CAROUSSEL*/
-
-.caroussel{
-    width: 960px;
-    margin: 0 auto;
-}
-
-.slider{
-    width: 100%;
-    height: 480px;
-    position:relative;
-    overflow: hidden;
-}
-
-.imgInterieur {
- /* width : 100%;
-  margin-right: auto;
-  margin-left: auto; */
-  position: absolute;
-  display: flex;
-  transition: ease-in 0.5s all;
-  will-change: left;
-}
-
-
-.carousselTextCard{
-  /*position : static;*/
-  margin-right: 500px;
-  right : 200px;
-}
-.carousselText div h2{
-  font-size : 34px;
-  font-weight: lighter;
-  width: 600px;
-  }
-.carousselText div p{
-  color : black;
-  font-size : 16px;
-  margin-right : 300px;
-}
-
-.carousselMusicImg{
- /* position: absolute;*/
-  top : 250px;
-  left : 200px;
-  width : 150px;
-  height: 140px;
-}
-
-.carousselSiriImg{
-  /*position: absolute;*/
-  top : 295px;
-  left : 400px;
-  width : 60px;
-  height: 60px;
-}
-
-.carousselBtn {
-  position : absolute;
-  top : 160px;
-  left : 500px;
-  width:0px;
-  height:0px;
-  border-top: 20px solid transparent;
-  border-left: 30px solid #000;
-  border-bottom: 20px solid transparent;
-}
-
-.carousselBtn:hover{
-  top : 155px;
-}
-
-
-/*FOOTER*/
-
-
-
-.footer ul li{
-  margin : 20px 5px 10px 5px;
-
-}
-
-.footer2 {
-  width: 97%;
-}
-
-}
-
-@media screen and (min-width: 1px ) and (max-width : 740px){
-
-
-    body{
-        font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 17px;
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-    
-  /*HEADER*/
-
-  header {
-    padding-top: 10px;
-    height: 28px;
-  }
-
-  /*MAIN*/
-
-
-  .imgText{
-    position : absolute;
-    width: 500px;
-    left : 100px;
-    right : 150px;
-    top : 130px;
-  }
-
-  .imgText h1{
-    font-size: 25px;
-    color : white;
-  }
-
-  .imgText h2{
-    font-size : 10px;
-    color : white;
-    font-weight: lighter;
-  }
-
-  .dimensionEnceinte{
-    width : 70%;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin: 0 auto;
-  }
-
-  .texteImageDimension{
-    display : block;
-    margin-left : 100px;
-    position : relative;
-  }
-
-  .presentationTexte h2{
-    font-size : 66px;
-    font-weight: lighter;
-    width: 400px;
-  }
-
-  .presentationTexte h3{
-    font-size : 24px;
-    font-weight: lighter;
-  }
-
-  .presentationTexte a{
-    color : #0070c9;
-    font-weight: lighter;
-    text-decoration: none;
-  }
-
-  .presentationTexte a:hover{
-    color : #51a9ee;
-  }
-
-  .presentationTexte{
-      width: 100%;
-      height: 60%;
-  }
-
-
-
-  .grisSideral{
-    position: absolute;
-    left: 27%;
-    top : 95%;
-  }
-
-  .blanc{
-    position: absolute;
-    left: 13%;
-    top : 95%;
-  }
-
-  .homePod_deux{
-    width: 60%;
-    height: 30%;
-  }
-
-
-
-  /*CAROUSSEL*/
-
-  .imgInterieur{
-    width : 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .imgInterieur img{
-    position : absolute;
-    top : 50%;
-    width : 240px;
-    height: auto;
-    margin : 0px auto 0px auto;
-  }
-
-  .carousselTextCard{
-    position : static;
-    margin-right: 600px;
-    right : 200px;
-  }
-  .carousselText div h2{
-    font-size : 26px;
-    font-weight: lighter;
-    width: 300px;
-
-    }
-  .carousselText div p{
-    color : black;
-    font-size : 16px;
-    margin-right : 300px;
-  }
-
-  .carousselMusicImg{
-    position: absolute;
-    top : 230px;
-    left : 40px;
-    width : 100px;
-    height: 90px;
-  }
-
-  .carousselSiriImg{
-    position: absolute;
-    top : 260px;
-    left : 200px;
-    width : 30px;
-    height: 30px;
-  }
-
-  .carousselBtn {
-    position : absolute;
-    top : 160px;
-    left : 370px;
-    width:0px;
-    height:0px;
-    border-top: 20px solid transparent;
-  	border-left: 30px solid #000;
-  	border-bottom: 20px solid transparent;
-  }
-
-  .carousselBtn:hover{
-    top : 155px;
-  }
-
-
-  /*FOOTER*/
-
-  .footer{
-    width : 90%;
-    height: 140px;
-    display : flex;
-    align-content:center;
-    margin-left : 50px;
-  }
-
-  .footer ul li{
-    margin : 20px 5px 10px 5px;
-
-  }
-
-  .footer ul li a{
-    font-size: 12px;
-  }
-
-  ul.footerList1, ul.footerList2 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .footer2{
-    width: 90%;
-    height: 100px;
-    margin-left: 40px;
-    margin-right: auto;
-    position : relative;
-  }
-  .footer2 a{
-    font-size: 11px;
-    text-decoration: none;
-    color : black;
-    margin-right: 7px;
-    padding-right: 10px;
-    margin-top: 30px;
-    border-right : 1px solid black;
-    margin-bottom: 42px;
-  }
-
-  .footerLogo img {
-    width: 40px;
-    height: auto;
-    margin-right: 10px;
-    margin-left: -28px;
-}
-
-
-
-
-  /*HAMBURGER*/
-
-  .homepodTitle{
-    display: block;
-    position: absolute;
-    width : 100%;
-    text-align: center;
-  }
-
-  .homepodTitle h2{
-    font-size : 35px;
-    margin-top : 8px;
-  }
-
-  #menuToggle
-  {
-    display: block;
-    position: relative;
-    top: 10px;
-    right : 270px;
-
-    z-index: 1;
-
-    -webkit-user-select: none;
-    user-select: none;
-  }
-
-  nav h2, nav .ongletNav, nav .buttonBuy{
-    display: none;
-  }
-
-  #menuToggle input
-  {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-
-    cursor: pointer;
-
-    opacity: 0; /* hide this */
-    z-index: 2; /* and place it over the hamburger */
-
-    -webkit-touch-callout: none;
-  }
-
-  #menuToggle span
-  {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-
-    background: #cdcdcd;
-    border-radius: 3px;
-
-    z-index: 1;
-
-    transform-origin: 4px 0px;
-
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
-  }
-
-  #menuToggle span:first-child
-  {
-    transform-origin: 0% 0%;
-  }
-
-  #menuToggle span:nth-last-child(2)
-  {
-    transform-origin: 0% 100%;
-  }
-
-  #menuToggle input:checked ~ span
-  {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(3)
-  {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
-
-  #menuToggle input:checked ~ span:nth-last-child(2)
-  {
-    transform: rotate(-45deg) translate(0, -1px);
-  }
-
-  #menu
-  {
-    opacity: 0.9;
-    position: absolute;
-    width: 160px;
-    margin: -100px 0 0 -50px;
-    padding: 30px 50px;
-    padding-top: 125px;
-    left : -40px;
-
-    background: #ededed;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* pour arrêter le scintillement en safari*/
-
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-
-  #menu li
-  {
-    padding: 20px 0;
-    font-size: 22px;
-    font-weight: bold;
-  }
-
-  #menuToggle input:checked ~ ul
-  {
-    transform: none;
-  }
