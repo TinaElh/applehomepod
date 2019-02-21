@@ -1,7 +1,7 @@
 const buttonCaroussel = document.querySelector ('.carousselBtn')
 const sliderImages = document.querySelectorAll ('.imgInterieur img')
 const sliderContainer = document.querySelector ('.imgInterieur')
-// const sliderText = document.querySelector ('.carousselText2')
+const slides = document.querySelectorAll('.carousselTextCard')
 let step = -960,
     pos = 1,
     currentPicture = 0,
@@ -12,7 +12,6 @@ let step = -960,
 sliderContainer.addEventListener("mouseover", () => {
 	clearInterval(slide)
 })
-const slides = document.querySelectorAll('.carousselTextCard')
 
 buttonCaroussel.addEventListener("click", (e) => {
 	e.preventDefault()
@@ -25,7 +24,7 @@ buttonCaroussel.addEventListener("click", (e) => {
         sliderImages[sliderImages.length-1].style.opacity = 0;
 	}else{
         sliderImages[currentPicture].style.opacity = 1;
-        document.querySelector(".carousselTextCard:not(.nonVisible").classList.remove("nonVisible")
+        document.querySelector(".carousselTextCard:not(.nonVisible").classList.add("nonVisible")
         slides[currentPicture].classList.remove("nonVisible")
         sliderImages[currentPicture-1].style.opacity = 0;
     }
