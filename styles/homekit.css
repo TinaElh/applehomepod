@@ -111,6 +111,7 @@ header .buttonBuy:hover{
       width: 100vw;
       height: 100vh;
       overflow: hidden;
+      margin-bottom: 7%;
   }
   #house img, #house .black {
       position: absolute;
