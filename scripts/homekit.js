@@ -8,13 +8,13 @@ const black = document.querySelector ('.black')
 
 
 light.addEventListener(
-    'click', 
+    'click',  
     function() {
-        if (light.classList.contains("off")) {
-            black.classList.remove("showed")
-            light.classList.remove("off")
+        if (light.classList.contains("off")) { // Si le bouton Light n'est pas activé
+            black.classList.remove("showed") // Ne pas afficher la div black 
+            light.classList.remove("off") // Enlever l'action
         } else {
-            black.classList.add("showed")
+            black.classList.add("showed") // Sinon montrer la div concernée
             light.classList.add("off")
         }
     }
@@ -33,7 +33,7 @@ tv.addEventListener(
     }
 )
 
-volet.addEventListener(
+volet.addEventListener( 
     'click', 
     function() {
         if (volet.classList.contains("off")) {
