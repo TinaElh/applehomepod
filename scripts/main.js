@@ -2,9 +2,7 @@ const buttonCaroussel = document.querySelector ('.carousselBtn')
 const sliderImages = document.querySelectorAll ('.imgInterieur img')
 const sliderContainer = document.querySelector ('.imgInterieur')
 const slides = document.querySelectorAll('.carousselTextCard')
-let step = -960,
-    pos = 1,
-    currentPicture = 0,
+let currentPicture = 0,
     slide
 
 
