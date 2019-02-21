@@ -9,9 +9,7 @@
     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
 }
 
-header {
-    margin: none;
-}
+
 body{
     font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin:0;
@@ -20,9 +18,21 @@ body{
     background-color: #FFF;
 }
 
+#menuToggle{
+  display: none;
+}
+
+
 main.buyPage {
     background-color: #f4f4f4;
     height: 900px;
+}
+
+.ongletNav:hover{
+  color: #c2c3c7;
+  transition : all 0.2s;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
 }
 
 .container__buy {
@@ -87,11 +97,10 @@ main.buyPage {
     margin-right: 10px;
     display: flex;
     justify-content: center;
-    cursor: pointer;
-*}
+}
 
 .gray-choice {
-    background-color: #7e8083;
+    background-color: #535658;
 }
 
 .white-choice {
@@ -113,6 +122,9 @@ main.buyPage {
     opacity: 1;
 }
 
+.color-button.gray-choice:hover p {
+    color: #fafafa;
+}
 .pagination-button__Button {
     border: 2px solid black;
     border-radius: 4px;
@@ -213,53 +225,159 @@ ANIMATIONS
         transform: translateY(0px);
     }
 }
-/*
-FOOTER
-*/
-.barreHorizontale {
+
+
+/* MEDIA QUERIES*/
+
+@media screen and (min-width: 1055px ) and (max-width : 1160px){
+
+  .buy-slider img {
+      width: 530px;
+      height: 540px;
+  }
+
+  .buy-action h2 {
+      font-size: 66px;
+      line-height: 90%;
+      margin-top: 10px;
+      margin-bottom: 0px;
+  }
+
+  .buy-action h3 {
+      margin-top: 3px;
+      font-size: 35px;
+      font-weight: normal;
+  }
 
 }
 
-.footer {
-    margin-left: auto;
-    margin-right: auto;
-    height: 90%;
-}
-.footer ul {
-    width: 25%;
-    list-style: none;
+@media screen and (min-width : 966px) and (max-width : 1054px){
+
+  .buy-slider img {
+      width: 430px;
+      height: 440px;
+  }
+
+  .buy-action h2 {
+      font-size: 56px;
+      line-height: 90%;
+      margin-top: 10px;
+      margin-bottom: 0px;
+  }
+
+  .buy-action h3 {
+      margin-top: 3px;
+      font-size: 25px;
+      font-weight: normal;
+  }
+
+
 }
 
-.footer2 img {
-    right: 35%;
+@media screen and (min-width : 861px) and (max-width : 965px){
+
+  .buy-slider img {
+      width: 330px;
+      height: 340px;
+  }
+
+  .buy-action h2 {
+      font-size: 46px;
+      line-height: 90%;
+      margin-top: 10px;
+      margin-bottom: 0px;
+  }
+
+  .buy-action h3 {
+      margin-top: 3px;
+      font-size: 31px;
+      font-weight: normal;
+  }
+
 }
 
-.footer2 {
+@media screen and (min-width : 1px) and (max-width : 860px){
+
+    .container__buy {
+        width: 1260px;
+        height:900px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+  .display-slider {
+      display: flex;
+      width: 70%;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      animation: test 1.5s;
+  }
+
+  .buy-slider img {
+      width: 330px;
+      height: auto;
+  }
+
+  .buy-action h2 {
+    font-size: 40px;
+    line-height: 85%;
+  }
+
+  .pagination-buttons {
     display: flex;
-    width: 1000px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
-.footer2 a {
-    margin-top: 13px;
-}
-
-.footerLogo {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-}
-.footerLogo img {
-    width: 50px;
-    height: auto;
-}
+    width: 330px;
+    margin-top: 30px;
+    }
 
-.barreHorizontale {
-    margin-top: 22px;
+    .pagination-button__Button {
+        width: 75px;
+        height: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .choice-color {
+        width: 335px;
+    }
+    .color-button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .shipping-info {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .shipping-info__info-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .shipping-info__info-section ul {
+        list-style: none;
+        margin-left: -29px;
+    }
+
+    .shipping-choice {
+        background: url(../images/icon-shipping2.png);
+    }
+
+    .shop-choice {
+        background: url(../images/icon-shop2.png);
+    }
+
+    .color-button p {
+        margin-top: 16px;
+    }
+
 }

@@ -6,6 +6,7 @@
     <meta name="description" content="description de la page"/>
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
     <link rel="stylesheet" href="styles/homekit.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <header id="header">
@@ -13,13 +14,13 @@
         <h2><a href="index.html" title="accueil">HomePod</a></h2>
         <a href="index.html" title="Presentation" class="ongletNav">Présentation</a>
         <a href="features.html" title="Caracteristiques" class="ongletNav">Caractéristiques</a>
-        <a href="homekit.html" title="Experience" class="current ongletNav">Home Experience</a>
+        <a href="homekit.html" title="Experience" class="current ongletNav">HomeKit</a>
         <a href="buy.html" title="Acheter" class="buttonBuy">Acheter</a>
       </nav>
     </header>
     <main>
-      <div class="homeExperience__animation__container">
-      <span class="homeExperience__animation__title">Home Experience</span>
+      <div class="homeKit__animation__container">
+        <span>HomeKit Experience</span>
       </div>
       <div id="house">
         <img src="images/salon_homePod.jpg" alt="salon" class="home showed"> <!--image originale du salon-->
@@ -27,7 +28,6 @@
         <img src="images/salon_homePod_volet.png" alt="salon" class="voletDown"> <!--div pour fermer les volets-->
         <div class="black"></div> <!-- div qui permet d'assombrir l'image-->
         <div class="buttons"> <!--div pour tous les boutons de l'image salon-->
-            <h2>Bouton</h2>
             <div id="positionButton">
                 <div class="buttonLight"></div>
                 <h3>Lumière</h3>
@@ -47,7 +47,10 @@
         <div class="buttonWindow"></div>
         <h3>Volet</h3>
       </div>
-      <section id="homeKit__Main__Slider">
+      <section id="homeKit__main__slider">
+        <div class="homeKit__slider__title__container">
+          <span>De nombreuses autres fonctionnalités</span>
+        </div>
         <input type="radio" name="slider" id="s1">
         <input type="radio" name="slider" id="s2">
         <input type="radio" name="slider" id="s3" checked>
@@ -55,44 +58,45 @@
         <input type="radio" name="slider" id="s5">
         <label for="s1" id="slide1"><img src="images/imgSlider1.png" alt="Exprimez-vous avec Siri"></label>
         <label for="s2" id="slide2"><img src="images/imgSlider2.png" alt="Planifiez avec Siri"></label>
-        <label for="s3" id="slide3"><img src="images/imgSlider3.png" alt="Cuisiner avec Siri"></label>
+        <label for="s3" id="slide3"><img src="images/imgSlider3.png" alt="Cuisinez avec Siri"></label>
         <label for="s4" id="slide4"><img src="images/imgSlider4.png" alt="Restez informé avec Siri"></label>
         <label for="s5" id="slide5"><img src="images/imgSlider5.png" alt="Encore d'autres utilisations de Siri"></label>
       </section>
     </main>
     <footer>
       <div class="barreHorizontale"></div>
-        <div class="footer">
-          <ul class="footerList1">
-            <li><a href="features.html" title="caracteristiques">Caractéristiques</a></li>
-            <li><a href="homekit.html" title="home kit">Home Kit</a></li>
-            <li><a href="buy.html" title="acheter">Acheter</a></li>
-          </ul>
-          <ul class="footerList2">
-            <li><a href="https://apple.com" title="caracteristiques">Apple</a></li>
-            <li><a href="https://secure1.store.apple.com/fr/shop/account/home" title="compte apple store">Compte Apple Store</a></li>
-            <li><a href="https://www.apple.com/fr/contact/" title="contact">Contact</a></li>
-          </ul>
-          <ul class="footerList2">
-            <li><a href="https://www.apple.com/fr/retail/" title="apple store">Apple Store</a></li>
-            <li><a href="https://www.apple.com/fr/accessibility/" title="accessibilité">Accessibilité</a></li>
-            <li><a href="https://www.apple.com/fr/privacy/" title="confidentialite">Confidentialité</a></li>
-          </ul>
-          <ul class="footerList2">
-            <li><a href="https://www.apple.com/legal/warranty/statutoryrights.html" title="garantie">Garantie</a></li>
-            <li><a href="https://www.apple.com/fr/apple-events/" title="Evenements">Evénements</a></li>
-            <li><a href="https://investor.apple.com/investor-relations/default.aspx" title="investisseurs">Investisseurs</a></li>
-          </ul>
+      <div class="footer">
+        <ul class="footerList1">
+          <li><a href="features.html" title="caracteristiques">Caractéristiques</a></li>
+          <li><a href="homekit.html" title="home kit">Home Kit</a></li>
+          <li><a href="buy.html" title="acheter">Acheter</a></li>
+        </ul>
+        <ul class="footerList2">
+          <li><a href="https://apple.com" title="caracteristiques">Apple</a></li>
+          <li><a href="https://secure1.store.apple.com/fr/shop/account/home" title="compte apple store">Compte Apple Store</a></li>
+          <li><a href="https://www.apple.com/fr/contact/" title="contact">Contact</a></li>
+        </ul>
+        <div class="footerLogo">
+          <a href="https://apple.com" title="apple"><img src="images/appleLogo.jpg" alt="logo Apple"></a>
         </div>
-        <div class="barreHorizontale2"></div>
+        <ul class="footerList2">
+          <li><a href="https://www.apple.com/fr/retail/" title="apple store">Apple Store</a></li>
+          <li><a href="https://www.apple.com/fr/accessibility/" title="accessibilité">Accessibilité</a></li>
+          <li><a href="https://www.apple.com/fr/privacy/" title="confidentialite">Confidentialité</a></li>
+        </ul>
+        <ul class="footerList2">
+          <li><a href="https://www.apple.com/legal/warranty/statutoryrights.html" title="garantie">Garantie</a></li>
+          <li><a href="https://www.apple.com/fr/apple-events/" title="Evenements">Evénements</a></li>
+          <li><a href="https://investor.apple.com/investor-relations/default.aspx" title="investisseurs">Investisseurs</a></li>
+        </ul>
       </div>
+      <div class="barreHorizontale2"></div>
       <div class="footer2">
         <a href="#" title="copyright">Copyright © 2019 Apple Inc. All rights reserved.</a>
         <a href="https://www.apple.com/legal/privacy/fr-ww/" title="confidentialité">Engagement de confidentialité</a>
         <a href="https://www.apple.com/legal/privacy/fr-ww/cookies/" title="cookies">Utilisations des cookies</a>
         <a href="https://www.apple.com/fr/legal/internet-services/terms/site.html" title="conditions utilisations">Conditions d'utilisations</a>
         <a href="https://www.apple.com/fr/legal/" title="mentions legales">Mentions légales</a>
-        <a href="https://apple.com" title="apple"><img src="images/appleLogo.jpg" alt="logo Apple"></a>
       </div>
     </footer>
     <script src="scripts/homekit.js"></script>
