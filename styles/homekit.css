@@ -49,7 +49,7 @@ header a{
 .ongletNav:hover{
     color: #c2c3c7;
     transition : all 0.2s;
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid black;
 }
 
 header .buttonBuy{
@@ -70,27 +70,24 @@ header .buttonBuy:hover{
 }
 
 .current{
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid black;
 }
 
   /*HomeExperience animation text*/
 
 .homeExperience__animation__container{
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     width: 100%;
 }
 .homeExperience__animation__container span{
     display: block;
-}
-.homeExperience__animation__title{
     text-transform: uppercase;
     color: black;
     font-size: 60px;
     font-weight: 500;
     letter-spacing: 8px;
-    margin-bottom: 20px;
-    background: white;
     animation: text 3.5s 1;
 }
 
@@ -111,7 +108,7 @@ header .buttonBuy:hover{
       width: 100vw;
       height: 100vh;
       overflow: hidden;
-      margin-bottom: 7%;
+      margin-bottom: 2%;
   }
   #house img, #house .black {
       position: absolute;
@@ -162,19 +159,43 @@ header .buttonBuy:hover{
       width: 80px;
       background-color: #121212;
       border-style: solid;
-      padding: 10px 0px 20px 0px;
-      margin: 0px 0px 60px 0px;
+      padding : 15px 10px;
       cursor: pointer;
+  }
+
+  .buttonLight:hover, .buttonTV:hover, .buttonWindow:hover{
+    background-color: #4b4b4b;
   }
 
 /* H3 FOR BUTTONS */
 
+.h2{
+  color : red;
+  position : absolute;
+  left : 100px;
+}
+
 .h3{
     font-style: normal;
     font-size: 12px;
+    color : white;
 }
 
   /*SLIDER*/
+
+.homeExperience__slider__title__container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+.homeExperience__slider__title__container span{
+    display: block;
+    text-transform: uppercase;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
 
 [type=radio] {
     position: absolute;
@@ -183,14 +204,14 @@ header .buttonBuy:hover{
     height: 0;
 }
 
-#homeKit__Main__Slider {
+#homeExperience__main__slider {
     height: 35vw;
     position: relative;
     perspective: 1750px;
     transform-style: preserve-3d;
 }
 
-#homeKit__Main__Slider label {
+#homeExperience__main__slider label {
     margin: auto;
     width: 45%;
     height: 69%;
@@ -202,7 +223,7 @@ header .buttonBuy:hover{
     transition: transform 0.4s ease;
 }
 
-#homeKit__Main__Slider label img{
+#homeExperience__main__slider img{
     width: 100%;
     height: 100%;
 }
@@ -252,7 +273,7 @@ header .buttonBuy:hover{
     margin-right: auto;
     margin-top : 100px;
   }
-  
+
   .footer{
     width : 1260px;
     height: 140px;
@@ -260,28 +281,28 @@ header .buttonBuy:hover{
     align-content:center;
     margin-left: 250px;
   }
-  
+
   .footer ul{
     list-style: none;
   }
-  
+
   .footer ul li{
     margin : 20px 20px 40px 40px;
-  
+
   }
-  
+
   .footer ul li a{
     color : black;
     text-decoration: none;
   }
-  
+
   .footer ul li a:hover{
     color : #c2c3c7;
     transition : all 0.2s;
   }
-  
+
   /*2ème FOOTER */
-  
+
   .footer2{
     width: 1000px;
     height: 100px;
@@ -298,11 +319,11 @@ header .buttonBuy:hover{
     margin-top: 30px;
     border-right : 1px solid black;
   }
-  
+
   .footer2 a:last-child{
     border-right : none;
   }
-  
+
   .footer2 img{
     width : 50px;
     height: 50px;
@@ -310,7 +331,7 @@ header .buttonBuy:hover{
     bottom : 270px;
     right : 550px;
   }
-  
+
   .barreHorizontale2{
     border: 1px solid rgba(0, 0, 0, 0.6);
     width : 900px;
