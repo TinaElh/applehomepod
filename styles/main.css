@@ -215,7 +215,7 @@ img.background{
 
 .carousselMusicImg{
   position: absolute;
-  top : 400px;
+  top : 500px;
   left : 600px;
   width : 150px;
   height: 130px;
@@ -223,7 +223,7 @@ img.background{
 
 .carousselSiriImg{
   position: absolute;
-  top : 440px;
+  top : 540px;
   left : 800px;
   width : 60px;
   height: 60px;
@@ -1085,5 +1085,8 @@ header #header{
   {
     transform: none;
   }
+<<<<<<< HEAD
+=======
 
 }
+>>>>>>> 99b4c6904694e14da9dae4f5a7b080074c48d952
