@@ -201,8 +201,8 @@ img.background
 {
 	width: 1260px;
 	height: 600px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: auto;
+    margin-right: auto;
 	position : relative;
 }
 .imgInterieur .visible

@@ -280,31 +280,9 @@ background : linear-gradient(#51a9ee,#147bcd)}
 	}
 }
 
-@media screen and (min-width : 966px) and (max-width : 1054px)
-{
-	.buy-slider img
-	{
-		width: 430px;
-		height: 440px;
-	}
 
-	.buy-action h2
-	{
-		font-size: 56px;
-		line-height: 90%;
-		margin-top: 10px;
-		margin-bottom: 0px;
-	}
 
-	.buy-action h3
-	{
-		margin-top: 3px;
-		font-size: 25px;
-		font-weight: normal;
-	}
-}
-
-@media screen and (min-width : 861px) and (max-width : 965px)
+@media screen and (min-width : 861px) and (max-width : 1054px)
 {
 	.buy-slider img
 	{
