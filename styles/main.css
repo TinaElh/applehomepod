@@ -357,6 +357,13 @@ ul.footerList1, ul.footerList2 {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .imgInterieur img{
+    width : 10px;
+    position : absolute;
+    top : 300px;
+  }
+
 }
 
 @media screen and (min-width: 915px ) and (max-width : 1250px){
@@ -438,6 +445,7 @@ header #header{
 
   .caroussel p{
     margin-right : 200px;
+    font-size : 20px;
   }
 
   .carousselMusicImg{
@@ -701,7 +709,6 @@ header #header{
 .carousselBtn:hover{
   top : 155px;
 }
-
 
 
 /*FOOTER*/
