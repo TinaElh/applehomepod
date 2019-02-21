@@ -739,7 +739,10 @@ header #header{
 
   /*HEADER*/
 
-
+  header {
+    padding-top: 10px;
+    height: 28px;
+  }
 
   /*MAIN*/
 
