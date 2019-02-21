@@ -1,20 +1,34 @@
 const buttonCaroussel = document.querySelector ('.carousselBtn')
-const carousselZero = document.querySelector ('.carousselText0')
-const carousselPremier = document.querySelector ('.carousselText1')
-const carousselDeuxième = document.querySelector ('.carousselText2')
-const carousselTroisième = document.querySelector ('.carousselText3')
-const sliderImages = document.querySelector ('.imgInterieur')
+const sliderImages = document.querySelectorAll ('.imgInterieur img')
+const sliderContainer = document.querySelector ('.imgInterieur')
+// const sliderText = document.querySelector ('.carousselText2')
+let step = -960,
+    pos = 1,
+    currentPicture = 0,
+    slide
 
-buttonCaroussel.addEventListener(
-    'click', 
-    function() {
-        if (buttonCaroussel.classList.contains("off")) {
-            carousselZero.style.opacity="1"
-            carousselPremier.style.opacity="0"
-            buttonCaroussel.classList.remove("off")
-        } else {
-            carousselZero.style.opacity="0"
-            buttonCaroussel.classList.add("off")
-        }
+
+
+sliderContainer.addEventListener("mouseover", () => {
+	clearInterval(slide)
+})
+const slides = document.querySelectorAll('.carousselTextCard')
+
+buttonCaroussel.addEventListener("click", (e) => {
+	e.preventDefault()
+    currentPicture++
+	if(currentPicture >= sliderImages.length){
+        currentPicture = 0
+        sliderImages[currentPicture].style.opacity = 1;
+        document.querySelector(".carousselTextCard:not(.nonVisible").classList.add("nonVisible")
+        slides[currentPicture].classList.remove("nonVisible")
+        sliderImages[sliderImages.length-1].style.opacity = 0;
+	}else{
+        sliderImages[currentPicture].style.opacity = 1;
+        document.querySelector(".carousselTextCard:not(.nonVisible").classList.remove("nonVisible")
+        slides[currentPicture].classList.remove("nonVisible")
+        sliderImages[currentPicture-1].style.opacity = 0;
     }
-)
+})
+
+
