@@ -292,6 +292,16 @@ ANIMATIONS
 
 @media screen and (min-width : 1px) and (max-width : 860px){
 
+
+  .ongletNav{
+  transition: color 0.3s ease;
+}
+
+.ongletNav:hover{
+  color: grey;
+}
+
+
   .display-slider {
       display: flex;
       width: 640px;
@@ -316,5 +326,8 @@ ANIMATIONS
       width: 330px;
       height: auto;
   }
+
+
+
 
 }
