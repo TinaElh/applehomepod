@@ -190,3 +190,78 @@ img.background{
   8.3%,25% { left: 25%; opacity: 1; }
   33.33%, 100% { left: 110%; opacity: 0; }
 }
+
+
+/* FOOTER */
+
+.barreHorizontale{
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  width : 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top : 100px;
+}
+
+.footer{
+  width : 1260px;
+  height: 140px;
+  display: flex;
+  align-content:center;
+  margin-left: 250px;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer ul li{
+  margin : 20px 20px 40px 40px;
+
+}
+
+.footer ul li a{
+  color : black;
+  text-decoration: none;
+}
+
+.footer ul li a:hover{
+  color : #c2c3c7;
+  transition : all 0.2s;
+}
+
+/*2ème FOOTER */
+
+.footer2{
+  width: 1000px;
+  height: 100px;
+  margin-left: 300px;
+  margin-right: auto;
+  position : relative;
+}
+.footer2 a{
+  font-size: 12px;
+  text-decoration: none;
+  color : black;
+  margin-right: 7px;
+  padding-right: 10px;
+  margin-top: 30px;
+  border-right : 1px solid black;
+}
+
+.footer2 a:last-child{
+  border-right : none;
+}
+
+.footer2 img{
+  width : 50px;
+  height: 50px;
+  position : absolute;
+  bottom : 270px;
+  right : 550px;
+}
+
+.barreHorizontale2{
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  width : 900px;
+  margin : 60px auto 30px auto;
+}
