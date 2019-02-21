@@ -29,23 +29,23 @@
 
   /* PICTURES */
 
-  #house {
-      position: relative;
-      width: 100vw;
-      height: 100vh;
-      overflow: hidden;
-      margin-bottom: 2%;
-  }
-  #house img, #house .black {
-      position: absolute;
-      top: 0; right: 0; bottom: 0; left: 0;
-      opacity: 0;
-      transition: opacity .6s;
-  }
-  #house .showed {
-      opacity: 1;
-  }
-  .black{
+#house {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 2%;
+}
+#house img, #house .black {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    opacity: 0;
+    transition: opacity .6s;
+}
+#house .showed {
+    opacity: 1;
+}
+.black{
     background-color: rgba(0,0,0,0.6);
 }
 
@@ -73,25 +73,25 @@
 
   /* BUTTONS */
 
-  .buttons{
-      display:flex;
-    /* justify-content: flex-end; */
-      margin-top: 650px;
-      position: absolute;
-  }
+.buttons{
+    display:flex;
+/* justify-content: flex-end; */
+    margin-top: 650px;
+    position: absolute;
+}
 
-  .buttonLight, .buttonTV, .buttonWindow{
-      border-radius: 50px 50px 50px 50px;
-      width: 80px;
-      background-color: #121212;
-      border-style: solid;
-      padding : 15px 10px;
-      cursor: pointer;
-  }
+.buttonLight, .buttonTV, .buttonWindow{
+    border-radius: 50px 50px 50px 50px;
+    width: 80px;
+    background-color: #121212;
+    border-style: solid;
+    padding : 15px 10px;
+    cursor: pointer;
+}
 
-  .buttonLight:hover, .buttonTV:hover, .buttonWindow:hover{
+.buttonLight:hover, .buttonTV:hover, .buttonWindow:hover{
     background-color: #4b4b4b;
-  }
+}
 
 /* H3 FOR BUTTONS */
 
@@ -183,35 +183,3 @@
 #slide5 {
     background: #8c8c8c
 }
-
-  /* MEDIA QUERIES */
-
-    @media screen and (max-width : 768px){
-
-        .navBar__container{
-            width: 760px;
-            display:flex;
-            justify-content: space-around;
-            font-size: 15px;
-        }
-
-        header .buttonBuy{
-            font-weight: normal;
-            padding: 3px 18px 0px 18px;
-            margin-top: 10px;
-            height: 20px;
-        }
-
-        header h2 {
-            font-size: 17px;
-        }
-
-        .homeExperience__animation__title{
-            font-size: 40px;
-        }
-
-        #house{
-            width: 100%;
-            height: 60%;
-        }
-    }
