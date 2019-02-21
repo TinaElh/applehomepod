@@ -33,16 +33,21 @@ header{
     margin-left: 20px;
 }
 
+.homepodTitle{
+  display: none;
+}
+
 .navBar__container{
   display : flex;
   justify-content: space-around;
-  width : 1260px;
+  width : 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 header h2 {
-  margin-top: 13px;
+  margin-top: 5px;
+  font-size: 35px;
 }
 
 header a{
@@ -344,6 +349,14 @@ ul.footerList1, ul.footerList2 {
     height: 600px;
     bottom : 300%;
   }
+
+  .navBar__container{
+    display : flex;
+    justify-content: space-around;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 915px ) and (max-width : 1250px){
@@ -356,6 +369,9 @@ ul.footerList1, ul.footerList2 {
       max-width: 100%;
       overflow-x: hidden;
   }
+  .navBar__container{
+    width: 100%;
+  }
 
 
 /*HEADER*/
@@ -366,7 +382,11 @@ header #header{
 
 
 .navBar__container{
-  width : 1260px;
+  display : flex;
+  justify-content: space-around;
+  width : 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*MAIN*/
@@ -484,6 +504,14 @@ header #header{
 @media screen and (min-width: 915px ) and (max-width : 1066px){
 
 
+  .navBar__container{
+    display : flex;
+    justify-content: space-around;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .imgText{
     position : absolute;
     left : 200px;
@@ -517,6 +545,13 @@ header #header{
       overflow-x: hidden;
   }
 
+  .navBar__container{
+    display : flex;
+    justify-content: space-around;
+    width : 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 /*HEADER*/
 
@@ -527,7 +562,8 @@ header #header{
 
 .imgText{
   position : absolute;
-  left : 450px;
+  width : 350px;
+  left : 250px;
   right : 50px;
   top : 100px;
 }
@@ -617,7 +653,7 @@ header #header{
     overflow: hidden;
 }
 
-.imgInterieur { 
+.imgInterieur {
  /* width : 100%;
   margin-right: auto;
   margin-left: auto; */
@@ -717,6 +753,7 @@ header #header{
 
 
 @media screen and (min-width: 1px ) and (max-width : 740px){
+
 
     body{
         font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -928,6 +965,18 @@ header #header{
 
   /*HAMBURGER*/
 
+  .homepodTitle{
+    display: block;
+    position: absolute;
+    width : 100%;
+    text-align: center;
+  }
+
+  .homepodTitle h2{
+    font-size : 35px;
+    margin-top : 8px;
+  }
+
   #menuToggle
   {
     display: block;
@@ -941,7 +990,7 @@ header #header{
     user-select: none;
   }
 
-  nav h2, nav .ongletNav{
+  nav h2, nav .ongletNav, nav .buttonBuy{
     display: none;
   }
 
@@ -1018,6 +1067,7 @@ header #header{
     margin: -100px 0 0 -50px;
     padding: 30px 50px;
     padding-top: 125px;
+    left : -40px;
 
     background: #ededed;
     list-style-type: none;
