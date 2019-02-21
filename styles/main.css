@@ -33,8 +33,6 @@ header
 	font-family: "SF Pro Text";
 	width: 100%;
 	height: 52px;
-	/*  border-bottom: 0.5px solid black;
-	*/
 	margin-right: 20px;
 	margin-left: 20px;
 }
@@ -89,7 +87,8 @@ header .buttonBuy
 
 header .buttonBuy:hover
 {
-background : linear-gradient(#51a9ee,#147bcd)}
+	background : linear-gradient(#51a9ee,#147bcd)
+}
 
 .current
 {
@@ -177,11 +176,13 @@ img.background
 {
     width: 100%;
 }
-.descriEnceintes {
+.descriEnceintes 
+{
     text-align: center;
     width: 50%;
 }
-.descriEnceintes span {
+.descriEnceintes span 
+{
     margin: 0 25px;
 }
 
@@ -215,7 +216,8 @@ img.background
     margin-right: 300px;
     max-width: 90vw;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) 
+{
     .carousselTextCard {
         left: 0;
     }
@@ -264,12 +266,14 @@ img.background
 	transition : all 0.5s;
 }
 
-.logos {
+.logos 
+{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logos img:first-child {
+.logos img:first-child 
+{
     height: 100px;
 }
 .logos img {
