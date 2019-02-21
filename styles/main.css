@@ -489,10 +489,8 @@ header #header{
 
 
   .footer2{
-    width: 1000px;
+    width: 82%;
     height: 40px;
-    margin-left: 30px;
-    margin-right: auto;
     position : relative;
   }
 
@@ -720,7 +718,11 @@ header #header{
 
 }
 
+.footer2 {
+  width: 97%;
+}
 
+}
 
 @media screen and (min-width: 1px ) and (max-width : 740px){
 
@@ -889,7 +891,7 @@ header #header{
   /*FOOTER*/
 
   .footer{
-    width : 1260px;
+    width : 90%;
     height: 140px;
     display : flex;
     align-content:center;
@@ -905,22 +907,27 @@ header #header{
     font-size: 12px;
   }
 
+  ul.footerList1, ul.footerList2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
   .footer2{
-    width: 1000px;
+    width: 90%;
     height: 100px;
     margin-left: 40px;
     margin-right: auto;
     position : relative;
   }
   .footer2 a{
-    font-size: 7px;
+    font-size: 11px;
     text-decoration: none;
     color : black;
     margin-right: 7px;
     padding-right: 10px;
     margin-top: 30px;
     border-right : 1px solid black;
+    margin-bottom: 42px;
   }
 
 
@@ -1062,3 +1069,4 @@ header #header{
     transform: none;
   }
 
+}
