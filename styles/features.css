@@ -15,6 +15,8 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    overflow-x: hidden;
+    background: #f4f4f4
 }
 
 /*HEADER*/
@@ -26,6 +28,7 @@ header{
 /*  border-bottom: 0.5px solid black; */
     margin-right: 20px;
     margin-left: 20px;
+
 }
 
 .navBar__container{
@@ -41,54 +44,58 @@ header h2 {
 }
 
 header a{
-  text-decoration: none;
-  margin-top: 16px;
-  color: black;
+    text-decoration: none;
+    margin-top: 16px;
+    color: black;
 }
 
 .ongletNav:hover{
   color: #c2c3c7;
   transition : all 0.2s;
-  border-bottom: 5px solid black;
 }
 
 header .buttonBuy{
-  font-weight: normal;
-  padding: 6px 40px 0px 40px;
-  margin-top: 10px;
-  height: 27px;
-  color: #FFF;
-  background: linear-gradient(#42a1ec, #0070c9);
-  border-color: #07c;
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 4px;
+    font-weight: normal;
+    padding: 6px 40px 0px 40px;
+    margin-top: 10px;
+    height: 27px;
+    color: #FFF;
+    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
 }
 
 header .buttonBuy:hover{
   background : linear-gradient(#51a9ee,#147bcd)
 }
 .current{
-  border-bottom: 5px solid black;
+  border-bottom: 15px solid black;
 }
 
 /*MAIN*/
 
 .imgtext{
   position: absolute ;
-  left : 800px;
-  top : 100px;
+  display: flex;
+  flex-direction:
 }
 
-.imgtext h1{
-  font-size: 64px;
+h1.imgtext{
+  font-size: 50px;
   color : white;
+  left : 700px;
+  top : 250px;
 }
 
-.imgtext h2{
+h2.imgtext{
   font-size : 20px;
   color : white;
   font-weight: lighter;
+  left : 700px;
+  top : 320px;
+  right : 50px;
 }
 
 img.background{
@@ -97,3 +104,125 @@ img.background{
   margin-top: 1px;
   position: relative;
 }
+
+/*Slider*/
+.Slider{
+  position: relative;
+  color: black;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7,
+.item-8,
+.item-9,
+.item-10,
+.item-11{
+	position: absolute;
+  display: block;
+	top: 2em;
+  left: -100%;
+
+  width: 60%;
+
+  font-size: 2em;
+
+	animation-duration: 19.5s;
+	animation-timing-function: ease-in-out
+}
+
+.item-1{
+	animation-name: anim;
+  animation-delay: 0s;
+}
+
+.item-2{
+	animation-name: anim;
+  animation-delay: 4.5s ;
+}
+
+.item-3{
+	animation-name: anim;
+  animation-delay: 9s;
+}
+.item-4{
+	animation-name: anim;
+  animation-delay: 13.5s;
+}
+
+.item-5{
+	animation-name: anim;
+  animation-delay: 18s;
+
+}
+.item-6{
+	animation-name: anim;
+  animation-delay: 22.5s;
+}
+.item-7{
+	animation-name: anim;
+  animation-delay: 27s;
+}
+
+.item-8{
+	animation-name: anim;
+  animation-delay: 31.5s;
+}
+
+.item-9{
+	animation-name: anim;
+  animation-delay: 36s;
+}
+.item-10{
+	animation-name: anim;
+  animation-delay: 40.5s;
+}
+
+.item-11{
+  	animation-name: anim;
+  animation-delay: 45s;
+}
+
+@keyframes anim{
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+.left {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	color: white;
+	font-size: 25px;
+	z-index: 10;
+}
+.right {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	color: white;
+	font-size: 25px;
+	z-index: 10;
+}
+.dotPagination {
+	display: flex;
+	z-index: 10;
+	position: absolute;
+	bottom: 10px;
+	left: 35%;
+}
+.dotPagination div {
+	margin-right: 10px;
+	margin-left: 18px;
+	width: 10px;
+	height: 10px;+++
+	background: none;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+.dotPagination div:hover {
+	back
