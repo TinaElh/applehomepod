@@ -201,17 +201,35 @@ img.background{
   top : 400px;
   left : 600px;
   width : 150px;
-  height: 150px;
+  height: 130px;
 }
 
 .carousselSiriImg{
   position: absolute;
-  top : 450px;
+  top : 440px;
   left : 800px;
   width : 60px;
   height: 60px;
 }
 
+.carousselBtn {
+  position : absolute;
+  top : 270px;
+  left : 1130px;
+  width:0px;
+  height:0px;
+  border-top: 20px solid transparent;
+	border-left: 30px solid #000;
+	border-bottom: 20px solid transparent;
+}
+
+.carousselBtn:hover{
+  border-top: 25px solid transparent;
+	border-left: 40px solid #c2c3c7;;
+	border-bottom: 25px solid transparent;
+  top : 265px;
+  transition : all 0.5s;
+}
 
 /* FOOTER */
 
@@ -289,6 +307,17 @@ img.background{
 
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 1250px ) and (max-width : 1278px){
+
+  .imgText{
+    position : absolute;
+    left : 600px;
+    top : 100px;
+    width: 600px;
+    height: 600px;
+    bottom : 300%;
+  }
+}
 
 @media screen and (min-width: 915px ) and (max-width : 1250px){
 
@@ -308,13 +337,6 @@ header #header{
   position : relative;
 }
 
-  .imgText{
-  position : absolute;
-  width: 600px;
-  height: 600px;
-  bottom : 300%;
-
-}
 
 .navBar__container{
   width : 1260px;
@@ -326,6 +348,9 @@ header #header{
   position : absolute;
   left : 500px;
   top : 100px;
+  width: 600px;
+  height: 600px;
+  bottom : 300%;
 }
 
 .imgText h1{
@@ -373,17 +398,31 @@ header #header{
     top : 350px;
     left : 500px;
     width : 150px;
-    height: 150px;
+    height: 140px;
   }
 
   .carousselSiriImg{
     position: absolute;
-    top : 400px;
+    top : 395px;
     left : 700px;
     width : 60px;
     height: 60px;
   }
 
+  .carousselBtn {
+    position : absolute;
+    top : 200px;
+    left : 800px;
+    width:0px;
+    height:0px;
+    border-top: 20px solid transparent;
+  	border-left: 30px solid #000;
+  	border-bottom: 20px solid transparent;
+  }
+
+  .carousselBtn:hover{
+    top : 195px;
+  }
 
 /*FOOTER*/
 
@@ -414,6 +453,31 @@ header #header{
 
 
 }
+
+@media screen and (min-width: 915px ) and (max-width : 1066px){
+
+
+  .imgText{
+    position : absolute;
+    left : 200px;
+    top : 100px;
+    width: 600px;
+    height: 600px;
+    bottom : 300%;
+  }
+  .imgText h1{
+    font-size: 36px;
+    color : white;
+  }
+
+  .imgText h2{
+    font-size : 16px;
+    color : white;
+    font-weight: lighter;
+  }
+
+}
+
 
 @media screen and (min-width: 740px ) and (max-width : 915px){
 
@@ -549,16 +613,32 @@ header #header{
   top : 250px;
   left : 200px;
   width : 150px;
-  height: 150px;
+  height: 140px;
 }
 
 .carousselSiriImg{
   position: absolute;
-  top : 300px;
+  top : 295px;
   left : 400px;
   width : 60px;
   height: 60px;
 }
+
+.carousselBtn {
+  position : absolute;
+  top : 160px;
+  left : 500px;
+  width:0px;
+  height:0px;
+  border-top: 20px solid transparent;
+  border-left: 30px solid #000;
+  border-bottom: 20px solid transparent;
+}
+
+.carousselBtn:hover{
+  top : 155px;
+}
+
 
 
 /*FOOTER*/
@@ -735,15 +815,30 @@ header #header{
     top : 230px;
     left : 40px;
     width : 100px;
-    height: 100px;
+    height: 90px;
   }
 
   .carousselSiriImg{
     position: absolute;
-    top : 270px;
+    top : 260px;
     left : 200px;
     width : 30px;
     height: 30px;
+  }
+
+  .carousselBtn {
+    position : absolute;
+    top : 160px;
+    left : 400px;
+    width:0px;
+    height:0px;
+    border-top: 20px solid transparent;
+  	border-left: 30px solid #000;
+  	border-bottom: 20px solid transparent;
+  }
+
+  .carousselBtn:hover{
+    top : 155px;
   }
 
 
