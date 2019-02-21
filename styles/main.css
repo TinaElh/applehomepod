@@ -482,7 +482,7 @@ header #header{
 /*FOOTER*/
 
   .barreHorizontale{
-    margin-top : 300px;
+    margin-top : 24px;
   }
 
 
@@ -933,14 +933,14 @@ header #header{
     margin-bottom: 42px;
   }
 
+  .footerLogo img {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: -28px;
+}
 
-  .footer2 img{
-    width : 30px;
-    height: 30px;
-    position : absolute;
-    bottom : 270px;
-    right : 700px;
-  }
+
 
 
   /*HAMBURGER*/
