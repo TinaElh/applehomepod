@@ -34,7 +34,7 @@
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 #house img, #house .black {
     position: absolute;
@@ -82,10 +82,9 @@
   /*SLIDER*/
 
 .homeKit__slider__title__container{
-    margin-top: 30px;
-    margin-bottom: 30px;
     text-align: center;
     width: 100%;
+    margin-bottom: 3.5%;
 }
 .homeKit__slider__title__container span{
     display: block;
