@@ -32,18 +32,21 @@
 #house {
     position: relative;
     width: 100%;
-    height: 100vh;
     overflow: hidden;
     margin-bottom: 4%;
 }
 #house img, #house .black {
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     opacity: 0;
     transition: opacity .6s;
 }
+
+#house img:nth-of-type(1) {
+    position: relative;
+}
+
 #house .showed {
     opacity: 1;
 }
@@ -56,9 +59,9 @@
 .buttons{
     display:flex;
     align-content: space-around;
-    margin-top: 650px;
-    margin-left: 30%;
+    left: calc(50% - 195px);
     position: absolute;
+    bottom: 30px;
 }
 
 .buttonLight, .buttonTV, .buttonWindow{
