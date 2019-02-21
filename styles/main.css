@@ -168,6 +168,8 @@ img.background{
 
 .imgInterieur img{
   position : absolute;
+  transition-duration: 1s;
+  opacity : 0;
   width : 430px;
   height: 600px;
 }
@@ -578,22 +580,31 @@ header #header{
 
 /*CAROUSSEL*/
 
-.imgInterieur{
-  width : 100%;
-  margin-right: auto;
-  margin-left: auto;
+.caroussel{
+    width: 960px;
+    margin: 0 auto;
 }
 
-.imgInterieur img{
-  position : absolute;
-  top : 60%;
-  width : 240px;
-  height: auto;
-  margin : 0px auto 0px auto;
+.slider{
+    width: 100%;
+    height: 480px;
+    position:relative;
+    overflow: hidden;
 }
+
+.imgInterieur { 
+ /* width : 100%;
+  margin-right: auto;
+  margin-left: auto; */
+  position: absolute;
+  display: flex;
+  transition: ease-in 0.5s all;
+  will-change: left;
+}
+
 
 .carousselText1{
-  position : static;
+  /*position : static;*/
   margin-right: 500px;
   right : 200px;
 }
@@ -609,7 +620,7 @@ header #header{
 }
 
 .carousselMusicImg{
-  position: absolute;
+ /* position: absolute;*/
   top : 250px;
   left : 200px;
   width : 150px;
@@ -617,7 +628,7 @@ header #header{
 }
 
 .carousselSiriImg{
-  position: absolute;
+  /*position: absolute;*/
   top : 295px;
   left : 400px;
   width : 60px;
