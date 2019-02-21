@@ -726,18 +726,19 @@ header #header{
 
   .imgText{
     position : absolute;
-    left : 450px;
-    right : 50px;
-    top : 100px;
+    width: 500px;
+    left : 100px;
+    right : 150px;
+    top : 130px;
   }
 
   .imgText h1{
-    font-size: 35px;
+    font-size: 25px;
     color : white;
   }
 
   .imgText h2{
-    font-size : 14px;
+    font-size : 10px;
     color : white;
     font-weight: lighter;
   }
@@ -812,7 +813,7 @@ header #header{
 
   .imgInterieur img{
     position : absolute;
-    top : 60%;
+    top : 50%;
     width : 240px;
     height: auto;
     margin : 0px auto 0px auto;
