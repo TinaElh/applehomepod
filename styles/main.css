@@ -94,6 +94,7 @@ main{
   left : 700px;
   top : 100px;
   width: 625px;
+  animation: indexAnimate 1.5s;
 }
 
 .imgText h1{
@@ -335,6 +336,19 @@ ul.footerList1, ul.footerList2 {
   border: 1px solid rgba(0, 0, 0, 0.6);
   width : 900px;
   margin : 60px auto 20px auto;
+}
+
+/*
+ANIMATIONS
+*/
+@keyframes indexAnimate {
+  0% {
+      transform: translateY(-80px);
+  }
+
+  100% {
+      transform: translateY(0px);
+  }
 }
 
 
