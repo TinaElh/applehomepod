@@ -914,6 +914,9 @@ header #header{
     right : 700px;
   }
 
+
+  /*HAMBURGER*/
+
   #menuToggle
   {
     display: block;
@@ -999,7 +1002,7 @@ header #header{
   #menu
   {
     position: absolute;
-    width: 300px;
+    width: 160px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
@@ -1017,7 +1020,7 @@ header #header{
 
   #menu li
   {
-    padding: 10px 0;
+    padding: 20px 0;
     font-size: 22px;
   }
 
