@@ -205,6 +205,10 @@ img.background
 	margin-right: 200px;
 	position : relative;
 }
+.imgInterieur .visible
+{
+    opacity: 1;
+}
 
 .imgInterieur img
 {
@@ -729,7 +733,7 @@ ul.footerList1, ul.footerList2
 		height: 480px;
 		position:relative;
 		overflow: hidden;
-	}
+    }
 
 	.imgInterieur
 	{
@@ -922,7 +926,7 @@ ul.footerList1, ul.footerList2
 		height: 30%;
 	}
 
-	/*CAROUSSEL*/
+    /*CAROUSSEL*/
 	.imgInterieur
 	{
 		width : 100%;
