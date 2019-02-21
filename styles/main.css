@@ -307,6 +307,17 @@ img.background{
 
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 1250px ) and (max-width : 1278px){
+
+  .imgText{
+    position : absolute;
+    left : 600px;
+    top : 100px;
+    width: 600px;
+    height: 600px;
+    bottom : 300%;
+  }
+}
 
 @media screen and (min-width: 915px ) and (max-width : 1250px){
 
@@ -326,13 +337,6 @@ header #header{
   position : relative;
 }
 
-  .imgText{
-  position : absolute;
-  width: 600px;
-  height: 600px;
-  bottom : 300%;
-
-}
 
 .navBar__container{
   width : 1260px;
@@ -344,6 +348,9 @@ header #header{
   position : absolute;
   left : 500px;
   top : 100px;
+  width: 600px;
+  height: 600px;
+  bottom : 300%;
 }
 
 .imgText h1{
@@ -446,6 +453,31 @@ header #header{
 
 
 }
+
+@media screen and (min-width: 915px ) and (max-width : 1066px){
+
+
+  .imgText{
+    position : absolute;
+    left : 200px;
+    top : 100px;
+    width: 600px;
+    height: 600px;
+    bottom : 300%;
+  }
+  .imgText h1{
+    font-size: 36px;
+    color : white;
+  }
+
+  .imgText h2{
+    font-size : 16px;
+    color : white;
+    font-weight: lighter;
+  }
+
+}
+
 
 @media screen and (min-width: 740px ) and (max-width : 915px){
 
