@@ -133,10 +133,8 @@ img.background
 
 .dimensionEnceinte
 {
-	width : 70%;
-	margin-right: 15%;
-	margin-left: 15%;
-	margin: 0 auto;
+	width : 90%;
+	margin: 50px auto;
 }
 
 .texteImageDimension
@@ -172,37 +170,27 @@ img.background
 
 .presentationTexte
 {
-	width: 100%;
-	height: 60%;
-}
-
-.grisSideral
-{
-	position: absolute;
-	left: 80%;
-	top : 83%;
-}
-
-.blanc
-{
-	position: absolute;
-	left: 60%;
-	top : 83%;
+	width: 50%;
 }
 
 .homePod_deux
 {
-	width: 70%;
-	height: 40%;
+    width: 100%;
+}
+.descriEnceintes {
+    text-align: center;
+    width: 50%;
+}
+.descriEnceintes span {
+    margin: 0 25px;
 }
 
 /*Caroussel*/
 .caroussel
 {
-	width: 1260px;
-	height: 600px;
-	margin-left: auto;
-    margin-right: auto;
+	width: 90vw;
+    height: 600px;
+    margin: 0 auto;
 	position : relative;
 }
 .imgInterieur .visible
@@ -224,7 +212,13 @@ img.background
 	opacity : 1;
 	position: absolute;
 	left : 500px;
-	margin-right: 300px;
+    margin-right: 300px;
+    max-width: 90vw;
+}
+@media screen and (max-width: 1200px) {
+    .carousselTextCard {
+        left: 0;
+    }
 }
 
 .nonVisible
@@ -248,29 +242,11 @@ img.background
 	font-size : 24px;
 }
 
-.carousselMusicImg
-{
-	position: absolute;
-	top : 500px;
-	left : 600px;
-	width : 150px;
-	height: 130px;
-}
-
-.carousselSiriImg
-{
-	position: absolute;
-	top : 540px;
-	left : 800px;
-	width : 60px;
-	height: 60px;
-}
-
 .carousselBtn
 {
 	position : absolute;
-	top : 270px;
-	left : 1130px;
+    top : 270px;
+    right: 1vw;
 	width:0px;
 	height:0px;
 	border-top: 20px solid transparent;
@@ -286,6 +262,19 @@ img.background
 	border-bottom: 25px solid transparent;
 	top : 265px;
 	transition : all 0.5s;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos img:first-child {
+    height: 100px;
+}
+.logos img {
+    height: 50px;
+    margin: 0 25px;
 }
 
 /* FOOTER */
