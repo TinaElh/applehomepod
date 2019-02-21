@@ -188,7 +188,7 @@ img.background{
   height: 600px;
 }
 
-.carousselText1{
+.carousselTextCard{
   opacity : 1;
   position: absolute;
   left : 500px;
@@ -430,7 +430,7 @@ header #header{
     top : 300px;
   }
 
-  .carousselText1{
+  .carousselTextCard{
     position : static;
     margin-right: 300px;
     right : 200px;
@@ -664,7 +664,7 @@ header #header{
 }
 
 
-.carousselText1{
+.carousselTextCard{
   /*position : static;*/
   margin-right: 500px;
   right : 200px;
@@ -867,7 +867,7 @@ header #header{
     margin : 0px auto 0px auto;
   }
 
-  .carousselText1{
+  .carousselTextCard{
     position : static;
     margin-right: 600px;
     right : 200px;
